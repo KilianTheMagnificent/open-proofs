@@ -8,13 +8,25 @@ The assessment column is the claim's own classification (see `claims.json`); a P
 
 | id | tier | assessment | verdict | reference | axioms | upstream | checked |
 |---|---|---|---|---|---|---|---|
+| `congruent.not_one` | a | proved | **PASS** | `CongruentNumber.not_congruentNumber_1` (upstream; upstream category: textbook; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos1193.parts.i` | a | proved | **PASS** | `Erdos1193.erdos_1193.parts.i` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos1193.parts.ii` | a | proved | **PASS** | `Erdos1193.erdos_1193.parts.ii` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos1193.variants.sumRep_univ` | a | proved | **PASS** | `Erdos1193.erdos_1193.variants.sumRep_univ` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos1193.variants.upper_density_pos` | a | proved | **PASS** | `Erdos1193.erdos_1193.variants.upper_density_pos` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos138.W_one` | a | proved | **PASS** | `Erdos138.monoAPNumber_two_one` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos138.W_two` | a | proved | **PASS** | `Erdos138.monoAPNumber_two_two` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos292.variants.mul` | a | proved | **PASS** | `Erdos292.erdos_292.variants.mul` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos292.variants.prime_pow` | a | proved | **PASS** | `Erdos292.erdos_292.variants.prime_pow` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos292.variants.two_mul` | a | proved | **PASS** | `Erdos292.erdos_292.variants.two_mul` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos349.exists_finsetSum_two_pow` | a | proved | **PASS** | `Erdos349.exists_finsetSum_two_pow` (upstream; upstream category: textbook; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `erdos554.one_colour_C5` | a | proved | **PASS** | `Erdos554.multicolourGraphRamsey_one_cycleGraph_five` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos828.at_neg_one` | b | special-case | **PASS** | `OpenProofs.Statements.Erdos828.at_neg_one` (variant; upstream category: None; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos828.at_zero` | b | special-case | **PASS** | `OpenProofs.Statements.Erdos828.at_zero` (variant; upstream category: None; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos902.variants.erdos_lower` | a | proved | **PASS** | `Erdos902.erdos_902.variants.erdos_lower` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `erdos902.variants.f_two` | a | proved | **PASS** | `Erdos902.erdos_902.variants.f_two` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `ramanujanTau.multipliable` | a | proved | **PASS** | `RamanujanTau.multipliable` (upstream; upstream category: API; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `ramanujanTau.two` | a | proved | **PASS** | `RamanujanTau.τ_two` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `ramsey.three_four` | a | proved | **PASS** | `RamseyNumbers.ramsey_number_three_four` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
 | `ramsey.three_three` | a | proved | **PASS** | `RamseyNumbers.ramsey_number_three_three` (upstream; upstream category: research solved; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `wow.C6_girth` | a | proved | **PASS** | `WrittenOnTheWallII.Test.C6_girth` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |
+| `wow.petersen_girth` | a | proved | **PASS** | `WrittenOnTheWallII.Test.petersen_girth` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-23 |

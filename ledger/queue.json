@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:01:57Z",
+ "updated": "2026-10-23T16:31:20Z",
  "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
  "_doc": "Target queue. Managed with scripts/loop.py (next/finish/status). Tiers: a = solved/textbook with placeholder upstream; b = special case or small-n variant (self-recorded statement if upstream lacks it); c = open, time-boxed. Lower priority number = sooner.",
  "targets": [
@@ -174,10 +174,18 @@
    "upstream_category": "textbook",
    "upstream_formal_proof": false,
    "erdos_status": null,
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 240,
    "notes": "Fermat right-triangle theorem: reduces to x^4 - y^4 = z^2 (difference form). Mathlib only has not_fermat_42 (sum form); needs its own descent.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "notes": "subagent; own Fermat descent for x^4-y^4=z^2; checker PASS",
+     "claim": "congruent.not_one"
+    }
+   ]
   },
   {
    "id": "Erdos629.erdos_629.variants.n_two",
@@ -234,10 +242,18 @@
    "upstream_category": "test",
    "upstream_formal_proof": true,
    "erdos_status": "open/unformalized",
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 60,
    "notes": "test category: W(2) = 3 (van der Waerden-type, 2 colours, length 2?). Read definition first.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "notes": "subagent; checker PASS",
+     "claim": "erdos138.W_two"
+    }
+   ]
   },
   {
    "id": "Erdos554.multicolourGraphRamsey_one_cycleGraph_five",
@@ -249,10 +265,18 @@
    "upstream_category": "test",
    "upstream_formal_proof": false,
    "erdos_status": "open/unformalized",
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 60,
    "notes": "test category: one colour, C5 ⊆ K5 and not ⊆ K4.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "notes": "subagent; checker PASS",
+     "claim": "erdos554.one_colour_C5"
+    }
+   ]
   },
   {
    "id": "RamanujanTau.τ_two",
@@ -264,10 +288,18 @@
    "upstream_category": "test",
    "upstream_formal_proof": false,
    "erdos_status": null,
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 60,
    "notes": "test category: power-series coefficient computation.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "notes": "subagent; also proved upstream placeholder RamanujanTau.multipliable; checker PASS",
+     "claim": "ramanujanTau.two"
+    }
+   ]
   },
   {
    "id": "WrittenOnTheWallII.Test.petersen_girth",
@@ -279,10 +311,18 @@
    "upstream_category": "test",
    "upstream_formal_proof": false,
    "erdos_status": null,
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 90,
    "notes": "test category: girth of the Petersen graph is 5.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "notes": "subagent; checker PASS",
+     "claim": "wow.petersen_girth"
+    }
+   ]
   },
   {
    "id": "Erdos349.exists_finsetSum_two_pow",
@@ -346,6 +386,276 @@
      "notes": "coordinator; checker PASS"
     }
    ]
+  },
+  {
+   "id": "Erdos138.monoAPNumber_two_one",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«138»",
+   "ref_theorem": "Erdos138.monoAPNumber_two_one",
+   "upstream_category": "test",
+   "upstream_formal_proof": true,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "N = 0 excluded since Icc 1 0 is empty; defining set is Set.Ici 1.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "erdos138.W_one",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "RamanujanTau.multipliable",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamanujanTau",
+   "ref_theorem": "RamanujanTau.multipliable",
+   "upstream_category": "API",
+   "upstream_formal_proof": false,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "Upstream's τ_one has a complete-looking proof that depends on this placeholder, so upstream τ_one currently rests on a placeholder; this result discharges it.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "ramanujanTau.multipliable",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "WrittenOnTheWallII.Test.C6_girth",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.WrittenOnTheWallII.Test",
+   "ref_theorem": "WrittenOnTheWallII.Test.C6_girth",
+   "upstream_category": "test",
+   "upstream_formal_proof": false,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "Reuses the walk lemmas from the Petersen file.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "wow.C6_girth",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "Erdos1193.erdos_1193.variants.sumRep_univ",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1193»",
+   "ref_theorem": "Erdos1193.erdos_1193.variants.sumRep_univ",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": true,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "Found by the quick-kill sweep (closed by simp). Upstream already links an external formal proof.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "erdos1193.variants.sumRep_univ",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "Erdos1193.erdos_1193.parts.i",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1193»",
+   "ref_theorem": "Erdos1193.erdos_1193.parts.i",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "Trivial as recorded in [Er80] (upstream docstring says so); Erdős presumably intended extra restrictions. Not a formalization error.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "erdos1193.parts.i",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "Erdos1193.erdos_1193.parts.ii",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1193»",
+   "ref_theorem": "Erdos1193.erdos_1193.parts.ii",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "Trivial as recorded in [Er80]; see parts.i.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "erdos1193.parts.ii",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "Erdos1193.erdos_1193.variants.upper_density_pos",
+   "tier": "a",
+   "priority": 50,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1193»",
+   "ref_theorem": "Erdos1193.erdos_1193.variants.upper_density_pos",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "status": "proved",
+   "timebox_minutes": 60,
+   "notes": "Trivial as recorded; see parts.i.",
+   "attempts": [
+    {
+     "started": "2026-10-23T16:31:20Z",
+     "finished": "2026-10-23T16:31:20Z",
+     "outcome": "proved",
+     "claim": "erdos1193.variants.upper_density_pos",
+     "notes": "checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "Erdos1052.isUnitaryPerfect_146361946186458562560000",
+   "tier": "a",
+   "priority": 44,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1052»",
+   "ref_theorem": "Erdos1052.isUnitaryPerfect_146361946186458562560000",
+   "upstream_category": "test",
+   "upstream_formal_proof": true,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 90,
+   "notes": "test: unitary-perfect check for an explicit 24-digit number; factorize, then multiplicativity of the unitary divisor sum (kernel decide on the full divisor set is too big).",
+   "attempts": []
+  },
+  {
+   "id": "Erdos675.minTranslation_squarefree_three",
+   "tier": "a",
+   "priority": 45,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«675»",
+   "ref_theorem": "Erdos675.minTranslation_squarefree_three",
+   "upstream_category": "test",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 60,
+   "notes": "test: read minTranslation; finite search plus a sInf argument.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos18.practicalH_fiftysix",
+   "tier": "a",
+   "priority": 46,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«18»",
+   "ref_theorem": "Erdos18.practicalH_fiftysix",
+   "upstream_category": "test",
+   "upstream_formal_proof": true,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 90,
+   "notes": "test: practical-number h-function at 56; finite but needs the definition unpacked.",
+   "attempts": []
+  },
+  {
+   "id": "BusyBeaver.BB_1",
+   "tier": "a",
+   "priority": 47,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.BusyBeaver",
+   "ref_theorem": "BusyBeaver.BB_1",
+   "upstream_category": "test",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "pending",
+   "timebox_minutes": 90,
+   "notes": "test: BB(1) = 1; needs the machine model and a halting argument for every 1-state machine.",
+   "attempts": []
+  },
+  {
+   "id": "RamseyNumbers.ramsey_number_three_five",
+   "tier": "a",
+   "priority": 48,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+   "ref_theorem": "RamseyNumbers.ramsey_number_three_five",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "pending",
+   "timebox_minutes": 240,
+   "notes": "R(3,5) = 14: degree argument (triangle-free, no independent 5-set on 14 vertices) and the cyclic graph on Z/13 with differences ±1, ±5 for the lower bound.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos902.erdos_902.variants.szekeres_f_three",
+   "tier": "a",
+   "priority": 60,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«902»",
+   "ref_theorem": "Erdos902.erdos_902.variants.szekeres_f_three",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 240,
+   "notes": "f(3) = 19 (Szekeres & Szekeres): lower bound needs a real case analysis; upper bound the quadratic-residue tournament on Z/19 (kernel decide on 19 vertices, C(19,3) triples).",
+   "attempts": []
+  },
+  {
+   "id": "Erdos828.erdos_828@a=1",
+   "tier": "c",
+   "priority": 90,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos828",
+   "ref_theorem": "(to record) type_of% (Erdos828.erdos_828 1)",
+   "upstream_category": "research open",
+   "status": "pending",
+   "timebox_minutes": 60,
+   "notes": "Open: φ(n) | n+1 holds for 1, 2, 3, 15, 255, 65535, 4294967295 (products of the known Fermat primes); infinitely many is unknown and tied to Fermat primes. Expect no progress; record the statement first, then time-box.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos349.erdos_349.variants.floor_3_halves_odd",
+   "tier": "c",
+   "priority": 91,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«349»",
+   "ref_theorem": "Erdos349.erdos_349.variants.floor_3_halves_odd",
+   "upstream_category": "research open",
+   "status": "pending",
+   "timebox_minutes": 60,
+   "notes": "Open (parity of ⌊(3/2)^n⌋, Mahler-type). Expect no progress; time-boxed exploration only.",
+   "attempts": []
   }
  ]
 }
