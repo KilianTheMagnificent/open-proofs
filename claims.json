@@ -95,6 +95,30 @@
    "assessment": "special-case",
    "summary": "Open Erdős 828 at a = -1: infinitely many n with φ(n) | n - 1.",
    "notes": "Statement is type_of% (Erdos828.erdos_828 (-1)). All primes. Well known and easy."
+  },
+  {
+   "id": "erdos902.variants.f_two",
+   "module": "OpenProofs.Results.Erdos.P902_f_two",
+   "theorem": "OpenProofs.Erdos902.erdos_902.variants.f_two",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«902»",
+   "ref_theorem": "Erdos902.erdos_902.variants.f_two",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "f(2) = 7: the smallest tournament in which every pair of vertices is dominated by a third has 7 vertices.",
+   "notes": "Every in-neighbourhood carries an S_1 sub-tournament, so in-degrees are ≥ 3 and 3m ≤ m(m-1)/2. Upper bound from upstream f_two_le (complete proof)."
+  },
+  {
+   "id": "erdos902.variants.erdos_lower",
+   "module": "OpenProofs.Results.Erdos.P902_erdos_lower",
+   "theorem": "OpenProofs.Erdos902.erdos_902.variants.erdos_lower",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«902»",
+   "ref_theorem": "Erdos902.erdos_902.variants.erdos_lower",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "Erdős [Er63c]: f(n) ≥ 2^(n+1) − 1.",
+   "notes": "Because f is an sInf over ℕ (0 if no tournament has property S_n), the formal statement also asserts that S_n tournaments exist for every n; the proof covers both: the in-neighbourhood recursion f(n) ≥ 2f(n−1)+1 and Erdős's probabilistic existence argument as a counting/union bound. Not a misformalization (both parts are true and due to Erdős), but the statement is stronger than the informal lower bound alone."
   }
  ]
 }

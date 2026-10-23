@@ -910,6 +910,310 @@
     "statement": ": type_of% (Erdos828.erdos_828 0)"
    }
   },
+  "erdos902.variants.erdos_lower": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T16:01:52Z",
+    "id": "erdos902.variants.erdos_lower",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P902_erdos_lower"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "17 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P902_erdos_lower]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "a2e5290ce8ee6a7e3467ae47b12f134b1438536b",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos902.variants.erdos_lower",
+    "module": "OpenProofs.Results.Erdos.P902_erdos_lower",
+    "notes": "Because f is an sInf over ℕ (0 if no tournament has property S_n), the formal statement also asserts that S_n tournaments exist for every n; the proof covers both: the in-neighbourhood recursion f(n) ≥ 2f(n−1)+1 and Erdős's probabilistic existence argument as a counting/union bound. Not a misformalization (both parts are true and due to Erdős), but the statement is stronger than the informal lower bound alone.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«902»",
+    "ref_theorem": "Erdos902.erdos_902.variants.erdos_lower",
+    "summary": "Erdős [Er63c]: f(n) ≥ 2^(n+1) − 1.",
+    "theorem": "OpenProofs.Erdos902.erdos_902.variants.erdos_lower",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/ErdosProblems/902.lean",
+    "formal_proof": false,
+    "line": 140,
+    "sorry": true,
+    "statement": "(n : ℕ) : 2 ^ (n + 1) - 1 ≤ f n"
+   }
+  },
+  "erdos902.variants.f_two": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T16:00:57Z",
+    "id": "erdos902.variants.f_two",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P902_f_two"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "5 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P902_f_two]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "a2e5290ce8ee6a7e3467ae47b12f134b1438536b",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos902.variants.f_two",
+    "module": "OpenProofs.Results.Erdos.P902_f_two",
+    "notes": "Every in-neighbourhood carries an S_1 sub-tournament, so in-degrees are ≥ 3 and 3m ≤ m(m-1)/2. Upper bound from upstream f_two_le (complete proof).",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«902»",
+    "ref_theorem": "Erdos902.erdos_902.variants.f_two",
+    "summary": "f(2) = 7: the smallest tournament in which every pair of vertices is dominated by a third has 7 vertices.",
+    "theorem": "OpenProofs.Erdos902.erdos_902.variants.f_two",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/ErdosProblems/902.lean",
+    "formal_proof": false,
+    "line": 130,
+    "sorry": true,
+    "statement": ": f 2 = 7"
+   }
+  },
   "ramsey.three_four": {
    "check": {
     "axioms": [

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T15:58:57Z",
+ "updated": "2026-10-23T16:01:57Z",
  "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
  "_doc": "Target queue. Managed with scripts/loop.py (next/finish/status). Tiers: a = solved/textbook with placeholder upstream; b = special case or small-n variant (self-recorded statement if upstream lacks it); c = open, time-boxed. Lower priority number = sooner.",
  "targets": [
@@ -82,14 +82,16 @@
    "upstream_category": "research solved",
    "upstream_formal_proof": false,
    "erdos_status": "open/unformalized",
-   "status": "in-progress",
+   "status": "proved",
    "timebox_minutes": 150,
    "notes": "In-neighbourhood I(v) must have property S_1 so |I(v)| ≥ 3; 3m ≤ m(m-1)/2 ⇒ m ≥ 7. Upper bound f_two_le is proved upstream.",
    "attempts": [
     {
      "started": "2026-10-23T15:45:54Z",
-     "outcome": null,
-     "notes": "first-iteration parallel subagent attempt"
+     "outcome": "proved",
+     "notes": "subagent proof; checker PASS",
+     "finished": "2026-10-23T16:01:57Z",
+     "claim": "erdos902.variants.f_two"
     }
    ]
   },
@@ -126,10 +128,18 @@
    "upstream_category": "research solved",
    "upstream_formal_proof": false,
    "erdos_status": "open/unformalized",
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 180,
    "notes": "Induction: I(v) has S_{n-1} ⇒ indeg ≥ f(n-1) ⇒ f(n) ≥ 2f(n-1)+1. Watch the sInf-of-empty-set = 0 convention.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T16:01:57Z",
+     "outcome": "proved",
+     "notes": "subagent stretch proof; statement also encodes existence of S_n tournaments (sInf over ℕ); proved both; checker PASS",
+     "claim": "erdos902.variants.erdos_lower"
+    }
+   ]
   },
   {
    "id": "RamseyNumbers.ramsey_number_three_four",
