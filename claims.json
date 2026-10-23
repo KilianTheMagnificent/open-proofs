@@ -11,6 +11,90 @@
    "assessment": "proved",
    "summary": "Binary expansion: every natural number is a sum of distinct powers of two.",
    "notes": "Pipeline smoke test. Upstream tags this `textbook` and already links an external formal proof (formal_proof attribute), so it adds little beyond validating the checker."
+  },
+  {
+   "id": "erdos292.variants.two_mul",
+   "module": "OpenProofs.Results.Erdos.P292_two_mul",
+   "theorem": "OpenProofs.Erdos292.erdos_292.variants.two_mul",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«292»",
+   "ref_theorem": "Erdos292.erdos_292.variants.two_mul",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "van Doorn: if n > 1 is in A (n is the largest term of a unit-fraction partition of 1) then so is 2n.",
+   "notes": "Witness insert 2 (2·S); 1 ∉ S because n > 1."
+  },
+  {
+   "id": "erdos292.variants.mul",
+   "module": "OpenProofs.Results.Erdos.P292_mul",
+   "theorem": "OpenProofs.Erdos292.erdos_292.variants.mul",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«292»",
+   "ref_theorem": "Erdos292.erdos_292.variants.mul",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "Straus: A is closed under multiplication.",
+   "notes": "Witness (S \\ {m}) ∪ m·T; disjoint since elements of S \\ {m} are < m."
+  },
+  {
+   "id": "erdos292.variants.prime_pow",
+   "module": "OpenProofs.Results.Erdos.P292_prime_pow",
+   "theorem": "OpenProofs.Erdos292.erdos_292.variants.prime_pow",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«292»",
+   "ref_theorem": "Erdos292.erdos_292.variants.prime_pow",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "A contains no prime power.",
+   "notes": "p-adic valuation: 1/p^k is the unique term of valuation -k."
+  },
+  {
+   "id": "ramsey.three_three",
+   "module": "OpenProofs.Results.Wikipedia.RamseyNumbers_three_three",
+   "theorem": "OpenProofs.RamseyNumbers.ramsey_number_three_three",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+   "ref_theorem": "RamseyNumbers.ramsey_number_three_three",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "R(3,3) = 6.",
+   "notes": "Pigeonhole upper bound by hand; C5 lower bound by kernel decide; upstream API classicalRamsey_eq_sInf, IsGraphRamsey.succ (both complete)."
+  },
+  {
+   "id": "ramsey.three_four",
+   "module": "OpenProofs.Results.Wikipedia.RamseyNumbers_three_four",
+   "theorem": "OpenProofs.RamseyNumbers.ramsey_number_three_four",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+   "ref_theorem": "RamseyNumbers.ramsey_number_three_four",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "R(3,4) = 9.",
+   "notes": "Upper bound: all degrees would be 3 on 9 vertices, odd degree sum. Lower bound: Wagner graph (circulant C8(1,4)) by kernel decide."
+  },
+  {
+   "id": "erdos828.at_zero",
+   "module": "OpenProofs.Results.Erdos.P828_at_zero",
+   "theorem": "OpenProofs.Erdos828.at_zero",
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos828",
+   "ref_theorem": "OpenProofs.Statements.Erdos828.at_zero",
+   "tier": "b",
+   "assessment": "special-case",
+   "summary": "Open Erdős 828 at a = 0: infinitely many n with φ(n) | n.",
+   "notes": "Statement is type_of% (Erdos828.erdos_828 0). Powers of two. Well known and easy; says nothing about general a."
+  },
+  {
+   "id": "erdos828.at_neg_one",
+   "module": "OpenProofs.Results.Erdos.P828_at_neg_one",
+   "theorem": "OpenProofs.Erdos828.at_neg_one",
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos828",
+   "ref_theorem": "OpenProofs.Statements.Erdos828.at_neg_one",
+   "tier": "b",
+   "assessment": "special-case",
+   "summary": "Open Erdős 828 at a = -1: infinitely many n with φ(n) | n - 1.",
+   "notes": "Statement is type_of% (Erdos828.erdos_828 (-1)). All primes. Well known and easy."
   }
  ]
 }

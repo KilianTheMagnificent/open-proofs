@@ -207,7 +207,8 @@ def isGeneratedName (n : Name) : Bool :=
    | _ => false)
 
 def jsonOfChecks (args : Args) (checks : Array CheckResult) (axioms : Array Name)
-    (candidates : Array Name) (identity : String := "none") : Json :=
+    (candidates : Array Name) (identity : String := "none") (refAxioms : Array Name := #[]) :
+    Json :=
   let ok := checks.all (·.ok)
   Json.mkObj [
     ("verdict", Json.str (if ok then "PASS" else "FAIL")),
@@ -219,6 +220,8 @@ def jsonOfChecks (args : Args) (checks : Array CheckResult) (axioms : Array Name
     ("lean_version", Json.str Lean.versionString),
     ("statement_identity", Json.str identity),
     ("axioms", toJson (axioms.map (·.toString))),
+    -- Informational: axioms of the reference itself (`sorryAx` = upstream proof is a placeholder).
+    ("ref_axioms", toJson (refAxioms.map (·.toString))),
     ("candidate_modules", toJson (candidates.map (·.toString))),
     ("checks", toJson checks)
   ]
@@ -322,6 +325,8 @@ def run (args : Args) : IO UInt32 := do
   let ((), (_, axs)) := (walkAxioms env args.thm).run ({}, {})
   let axioms := axs.toArray.qsort Name.lt
   let badAx := axioms.filter (!allowedAxioms.contains ·)
+  let ((), (_, refAxs)) := (walkAxioms env args.refThm).run ({}, {})
+  let refAxioms := refAxs.toArray.qsort Name.lt
   checks := checks.push {
     name := "axioms", ok := badAx.isEmpty,
     detail := if badAx.isEmpty then s!"{axioms.toList}"
@@ -388,7 +393,7 @@ def run (args : Args) : IO UInt32 := do
       name := "kernel_replay", ok := replayErrs.isEmpty,
       detail := if replayErrs.isEmpty then s!"replayed {candidates.size} candidate module(s)"
         else String.intercalate "; " replayErrs.toList }
-  let out := jsonOfChecks args checks axioms candidates identity
+  let out := jsonOfChecks args checks axioms candidates identity refAxioms
   IO.println out.compress
   return if checks.all (·.ok) then 0 else 1
 

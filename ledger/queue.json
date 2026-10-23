@@ -1,0 +1,341 @@
+{
+ "updated": "2026-10-23T15:58:57Z",
+ "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+ "_doc": "Target queue. Managed with scripts/loop.py (next/finish/status). Tiers: a = solved/textbook with placeholder upstream; b = special case or small-n variant (self-recorded statement if upstream lacks it); c = open, time-boxed. Lower priority number = sooner.",
+ "targets": [
+  {
+   "id": "Erdos292.erdos_292.variants.two_mul",
+   "tier": "a",
+   "priority": 10,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«292»",
+   "ref_theorem": "Erdos292.erdos_292.variants.two_mul",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "proved/unformalized",
+   "status": "proved",
+   "timebox_minutes": 120,
+   "notes": "van Doorn: {2} ∪ 2·S. Elementary.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:45:54Z",
+     "outcome": "proved",
+     "notes": "subagent proof; checker PASS (syntactic identity)",
+     "finished": "2026-10-23T15:58:57Z",
+     "claim": "erdos292.variants.two_mul"
+    }
+   ]
+  },
+  {
+   "id": "Erdos292.erdos_292.variants.mul",
+   "tier": "a",
+   "priority": 11,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«292»",
+   "ref_theorem": "Erdos292.erdos_292.variants.mul",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "proved/unformalized",
+   "status": "proved",
+   "timebox_minutes": 120,
+   "notes": "Straus: replace max element m of S by m·T. Elementary.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:45:54Z",
+     "outcome": "proved",
+     "notes": "subagent proof; checker PASS",
+     "finished": "2026-10-23T15:58:57Z",
+     "claim": "erdos292.variants.mul"
+    }
+   ]
+  },
+  {
+   "id": "Erdos292.erdos_292.variants.prime_pow",
+   "tier": "a",
+   "priority": 12,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«292»",
+   "ref_theorem": "Erdos292.erdos_292.variants.prime_pow",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "proved/unformalized",
+   "status": "proved",
+   "timebox_minutes": 150,
+   "notes": "p-adic valuation of the largest term p^k is unique; padicValRat.lt_sum_of_lt.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:45:54Z",
+     "outcome": "proved",
+     "notes": "subagent proof; own helper for padicValRat of sums incl. zero sum; checker PASS",
+     "finished": "2026-10-23T15:58:57Z",
+     "claim": "erdos292.variants.prime_pow"
+    }
+   ]
+  },
+  {
+   "id": "Erdos902.erdos_902.variants.f_two",
+   "tier": "a",
+   "priority": 13,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«902»",
+   "ref_theorem": "Erdos902.erdos_902.variants.f_two",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "in-progress",
+   "timebox_minutes": 150,
+   "notes": "In-neighbourhood I(v) must have property S_1 so |I(v)| ≥ 3; 3m ≤ m(m-1)/2 ⇒ m ≥ 7. Upper bound f_two_le is proved upstream.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:45:54Z",
+     "outcome": null,
+     "notes": "first-iteration parallel subagent attempt"
+    }
+   ]
+  },
+  {
+   "id": "RamseyNumbers.ramsey_number_three_three",
+   "tier": "a",
+   "priority": 14,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+   "ref_theorem": "RamseyNumbers.ramsey_number_three_three",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "proved",
+   "timebox_minutes": 150,
+   "notes": "Pigeonhole on K6 + C5 lower bound; classicalRamsey_eq_sInf, IsGraphRamsey.succ are proved upstream.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:45:54Z",
+     "outcome": "proved",
+     "notes": "subagent proof; checker PASS",
+     "finished": "2026-10-23T15:58:57Z",
+     "claim": "ramsey.three_three"
+    }
+   ]
+  },
+  {
+   "id": "Erdos902.erdos_902.variants.erdos_lower",
+   "tier": "a",
+   "priority": 20,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«902»",
+   "ref_theorem": "Erdos902.erdos_902.variants.erdos_lower",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 180,
+   "notes": "Induction: I(v) has S_{n-1} ⇒ indeg ≥ f(n-1) ⇒ f(n) ≥ 2f(n-1)+1. Watch the sInf-of-empty-set = 0 convention.",
+   "attempts": []
+  },
+  {
+   "id": "RamseyNumbers.ramsey_number_three_four",
+   "tier": "a",
+   "priority": 21,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+   "ref_theorem": "RamseyNumbers.ramsey_number_three_four",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "proved",
+   "timebox_minutes": 180,
+   "notes": "R(3,4)=9: upper via degree argument (each vertex: ≥4 non-neighbours ⇒ K4-free needs..., parity for 8 vertices); lower via the 8-vertex circulant C8(1,4).",
+   "attempts": [
+    {
+     "started": null,
+     "finished": "2026-10-23T15:58:57Z",
+     "outcome": "proved",
+     "notes": "subagent stretch proof; checker PASS",
+     "claim": "ramsey.three_four"
+    }
+   ]
+  },
+  {
+   "id": "CongruentNumber.not_congruentNumber_1",
+   "tier": "a",
+   "priority": 22,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.CongruentNumber",
+   "ref_theorem": "CongruentNumber.not_congruentNumber_1",
+   "upstream_category": "textbook",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "pending",
+   "timebox_minutes": 240,
+   "notes": "Fermat right-triangle theorem: reduces to x^4 - y^4 = z^2 (difference form). Mathlib only has not_fermat_42 (sum form); needs its own descent.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos629.erdos_629.variants.n_two",
+   "tier": "a",
+   "priority": 30,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«629»",
+   "ref_theorem": "Erdos629.erdos_629.variants.n_two",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 180,
+   "notes": "ERT80: smallest non-2-choosable bipartite graph has 6 vertices (K_{3,3} minus a perfect matching? check). Needs list-colouring API (listChromaticNumber).",
+   "attempts": []
+  },
+  {
+   "id": "Erdos767.erdos_767.variants.czipszer",
+   "tier": "a",
+   "priority": 31,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«767»",
+   "ref_theorem": "Erdos767.erdos_767.variants.czipszer",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "proved/unformalized",
+   "status": "pending",
+   "timebox_minutes": 180,
+   "notes": "g_k(n) ≤ (k+1)n. Check the sSup is over a bounded set (it is, ≤ n^2) before proving.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos1084.erdos_1084.variants.easy_upper_d2",
+   "tier": "a",
+   "priority": 32,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1084»",
+   "ref_theorem": "Erdos1084.erdos_1084.variants.easy_upper_d2",
+   "upstream_category": "research solved",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 240,
+   "notes": "Unit-distance graph of 1-separated planar points: max degree 6, and an extreme point has degree ≤ 3. Geometry-heavy.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos138.monoAPNumber_two_two",
+   "tier": "a",
+   "priority": 40,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«138»",
+   "ref_theorem": "Erdos138.monoAPNumber_two_two",
+   "upstream_category": "test",
+   "upstream_formal_proof": true,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 60,
+   "notes": "test category: W(2) = 3 (van der Waerden-type, 2 colours, length 2?). Read definition first.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos554.multicolourGraphRamsey_one_cycleGraph_five",
+   "tier": "a",
+   "priority": 41,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«554»",
+   "ref_theorem": "Erdos554.multicolourGraphRamsey_one_cycleGraph_five",
+   "upstream_category": "test",
+   "upstream_formal_proof": false,
+   "erdos_status": "open/unformalized",
+   "status": "pending",
+   "timebox_minutes": 60,
+   "notes": "test category: one colour, C5 ⊆ K5 and not ⊆ K4.",
+   "attempts": []
+  },
+  {
+   "id": "RamanujanTau.τ_two",
+   "tier": "a",
+   "priority": 42,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.RamanujanTau",
+   "ref_theorem": "RamanujanTau.τ_two",
+   "upstream_category": "test",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "pending",
+   "timebox_minutes": 60,
+   "notes": "test category: power-series coefficient computation.",
+   "attempts": []
+  },
+  {
+   "id": "WrittenOnTheWallII.Test.petersen_girth",
+   "tier": "a",
+   "priority": 43,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.WrittenOnTheWallII.Test",
+   "ref_theorem": "WrittenOnTheWallII.Test.petersen_girth",
+   "upstream_category": "test",
+   "upstream_formal_proof": false,
+   "erdos_status": null,
+   "status": "pending",
+   "timebox_minutes": 90,
+   "notes": "test category: girth of the Petersen graph is 5.",
+   "attempts": []
+  },
+  {
+   "id": "Erdos349.exists_finsetSum_two_pow",
+   "tier": "a",
+   "priority": 5,
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«349»",
+   "ref_theorem": "Erdos349.exists_finsetSum_two_pow",
+   "upstream_category": "textbook",
+   "status": "proved",
+   "timebox_minutes": 30,
+   "notes": "Pipeline smoke test; upstream already links an external formal proof.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:58:58Z",
+     "finished": "2026-10-23T15:58:58Z",
+     "outcome": "proved",
+     "claim": "erdos349.exists_finsetSum_two_pow",
+     "notes": "coordinator; checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos828.at_zero",
+   "tier": "b",
+   "priority": 5,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos828",
+   "ref_theorem": "OpenProofs.Statements.Erdos828.at_zero",
+   "upstream_category": null,
+   "status": "proved",
+   "timebox_minutes": 30,
+   "notes": "Self-recorded special case a = 0 of open Erdős 828.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:58:58Z",
+     "finished": "2026-10-23T15:58:58Z",
+     "outcome": "proved",
+     "claim": "erdos828.at_zero",
+     "notes": "coordinator; checker PASS"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos828.at_neg_one",
+   "tier": "b",
+   "priority": 5,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos828",
+   "ref_theorem": "OpenProofs.Statements.Erdos828.at_neg_one",
+   "upstream_category": null,
+   "status": "proved",
+   "timebox_minutes": 30,
+   "notes": "Self-recorded special case a = -1 of open Erdős 828.",
+   "attempts": [
+    {
+     "started": "2026-10-23T15:58:58Z",
+     "finished": "2026-10-23T15:58:58Z",
+     "outcome": "proved",
+     "claim": "erdos828.at_neg_one",
+     "notes": "coordinator; checker PASS"
+    }
+   ]
+  }
+ ]
+}

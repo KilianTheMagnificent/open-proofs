@@ -1,0 +1,1218 @@
+{
+ "results": {
+  "erdos292.variants.mul": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:56:12Z",
+    "id": "erdos292.variants.mul",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P292_mul"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "8 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P292_mul]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos292.variants.mul",
+    "module": "OpenProofs.Results.Erdos.P292_mul",
+    "notes": "Witness (S \\ {m}) ∪ m·T; disjoint since elements of S \\ {m} are < m.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«292»",
+    "ref_theorem": "Erdos292.erdos_292.variants.mul",
+    "summary": "Straus: A is closed under multiplication.",
+    "theorem": "OpenProofs.Erdos292.erdos_292.variants.mul",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/ErdosProblems/292.lean",
+    "formal_proof": false,
+    "line": 72,
+    "sorry": true,
+    "statement": ": ∀ m ∈ A, ∀ n ∈ A, m * n ∈ A"
+   }
+  },
+  "erdos292.variants.prime_pow": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:56:40Z",
+    "id": "erdos292.variants.prime_pow",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P292_prime_pow"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "8 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P292_prime_pow]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos292.variants.prime_pow",
+    "module": "OpenProofs.Results.Erdos.P292_prime_pow",
+    "notes": "p-adic valuation: 1/p^k is the unique term of valuation -k.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«292»",
+    "ref_theorem": "Erdos292.erdos_292.variants.prime_pow",
+    "summary": "A contains no prime power.",
+    "theorem": "OpenProofs.Erdos292.erdos_292.variants.prime_pow",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/ErdosProblems/292.lean",
+    "formal_proof": false,
+    "line": 77,
+    "sorry": true,
+    "statement": ": ∀ n ∈ A, ¬ IsPrimePow n"
+   }
+  },
+  "erdos292.variants.two_mul": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:55:45Z",
+    "id": "erdos292.variants.two_mul",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P292_two_mul"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "12 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P292_two_mul]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos292.variants.two_mul",
+    "module": "OpenProofs.Results.Erdos.P292_two_mul",
+    "notes": "Witness insert 2 (2·S); 1 ∉ S because n > 1.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«292»",
+    "ref_theorem": "Erdos292.erdos_292.variants.two_mul",
+    "summary": "van Doorn: if n > 1 is in A (n is the largest term of a unit-fraction partition of 1) then so is 2n.",
+    "theorem": "OpenProofs.Erdos292.erdos_292.variants.two_mul",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/ErdosProblems/292.lean",
+    "formal_proof": false,
+    "line": 82,
+    "sorry": true,
+    "statement": ": ∀ n ∈ A, 1 < n → 2 * n ∈ A"
+   }
+  },
+  "erdos349.exists_finsetSum_two_pow": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:55:16Z",
+    "id": "erdos349.exists_finsetSum_two_pow",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8974] Built opcheck:exe (1.6s)\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P349_exists_finsetSum_two_pow"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "13 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P349_exists_finsetSum_two_pow]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos349.exists_finsetSum_two_pow",
+    "module": "OpenProofs.Results.Erdos.P349_exists_finsetSum_two_pow",
+    "notes": "Pipeline smoke test. Upstream tags this `textbook` and already links an external formal proof (formal_proof attribute), so it adds little beyond validating the checker.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«349»",
+    "ref_theorem": "Erdos349.exists_finsetSum_two_pow",
+    "summary": "Binary expansion: every natural number is a sum of distinct powers of two.",
+    "theorem": "OpenProofs.Erdos349.exists_finsetSum_two_pow",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "textbook",
+    "file": "FormalConjectures/ErdosProblems/349.lean",
+    "formal_proof": true,
+    "line": 119,
+    "sorry": true,
+    "statement": "(k : ℕ) : ∃ E : Finset ℕ, k = ∑ i ∈ E, 2 ^ i"
+   }
+  },
+  "erdos828.at_neg_one": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:58:38Z",
+    "id": "erdos828.at_neg_one",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8975/8975] Built OpenProofs.Statements.Erdos828 (4.8s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P828_at_neg_one"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "16 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P828_at_neg_one]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "special-case",
+    "id": "erdos828.at_neg_one",
+    "module": "OpenProofs.Results.Erdos.P828_at_neg_one",
+    "notes": "Statement is type_of% (Erdos828.erdos_828 (-1)). All primes. Well known and easy.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos828",
+    "ref_theorem": "OpenProofs.Statements.Erdos828.at_neg_one",
+    "summary": "Open Erdős 828 at a = -1: infinitely many n with φ(n) | n - 1.",
+    "theorem": "OpenProofs.Erdos828.at_neg_one",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos828.lean",
+    "formal_proof": false,
+    "line": 18,
+    "sorry": true,
+    "statement": ": type_of% (Erdos828.erdos_828 (-1))"
+   }
+  },
+  "erdos828.at_zero": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:58:02Z",
+    "id": "erdos828.at_zero",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (4.9s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P828_at_zero"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "14 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P828_at_zero]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "special-case",
+    "id": "erdos828.at_zero",
+    "module": "OpenProofs.Results.Erdos.P828_at_zero",
+    "notes": "Statement is type_of% (Erdos828.erdos_828 0). Powers of two. Well known and easy; says nothing about general a.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos828",
+    "ref_theorem": "OpenProofs.Statements.Erdos828.at_zero",
+    "summary": "Open Erdős 828 at a = 0: infinitely many n with φ(n) | n.",
+    "theorem": "OpenProofs.Erdos828.at_zero",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos828.lean",
+    "formal_proof": false,
+    "line": 15,
+    "sorry": true,
+    "statement": ": type_of% (Erdos828.erdos_828 0)"
+   }
+  },
+  "ramsey.three_four": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:57:33Z",
+    "id": "ramsey.three_four",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Wikipedia.RamseyNumbers_three_four"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "5 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Wikipedia.RamseyNumbers_three_four]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "ramsey.three_four",
+    "module": "OpenProofs.Results.Wikipedia.RamseyNumbers_three_four",
+    "notes": "Upper bound: all degrees would be 3 on 9 vertices, odd degree sum. Lower bound: Wagner graph (circulant C8(1,4)) by kernel decide.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+    "ref_theorem": "RamseyNumbers.ramsey_number_three_four",
+    "summary": "R(3,4) = 9.",
+    "theorem": "OpenProofs.RamseyNumbers.ramsey_number_three_four",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/Wikipedia/RamseyNumbers.lean",
+    "formal_proof": false,
+    "line": 134,
+    "sorry": true,
+    "statement": ": R(3, 4) = 9"
+   }
+  },
+  "ramsey.three_three": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T15:57:07Z",
+    "id": "ramsey.three_three",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Wikipedia.RamseyNumbers_three_three"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "5 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Wikipedia.RamseyNumbers_three_three]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "ramsey.three_three",
+    "module": "OpenProofs.Results.Wikipedia.RamseyNumbers_three_three",
+    "notes": "Pigeonhole upper bound by hand; C5 lower bound by kernel decide; upstream API classicalRamsey_eq_sInf, IsGraphRamsey.succ (both complete).",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+    "ref_theorem": "RamseyNumbers.ramsey_number_three_three",
+    "summary": "R(3,3) = 6.",
+    "theorem": "OpenProofs.RamseyNumbers.ramsey_number_three_three",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/Wikipedia/RamseyNumbers.lean",
+    "formal_proof": false,
+    "line": 129,
+    "sorry": true,
+    "statement": ": R(3, 3) = 6"
+   }
+  }
+ }
+}

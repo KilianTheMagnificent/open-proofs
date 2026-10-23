@@ -219,7 +219,7 @@ def opcheck_layer(root: Path, claim: dict, replay: bool = True) -> dict:
     return layer("opcheck", ok, "all Lean-level checks passed" if ok else f"failed: {failed}",
                  checks=js.get("checks", []), axioms=js.get("axioms", []),
                  candidate_modules=js.get("candidate_modules", []), lean_version=js.get("lean_version"),
-                 statement_identity=js.get("statement_identity"))
+                 statement_identity=js.get("statement_identity"), ref_axioms=js.get("ref_axioms"))
 
 
 def leanchecker_layer(root: Path, modules: list[str]) -> dict:
@@ -290,6 +290,7 @@ def check_claim(claim: dict, root: Path = ROOT, clean: bool = True, replay: bool
         "repo": repo_state(root),
         "axioms": next((l.get("axioms") for l in layers if l["layer"] == "opcheck"), None),
         "statement_identity": next((l.get("statement_identity") for l in layers if l["layer"] == "opcheck"), None),
+        "ref_axioms": next((l.get("ref_axioms") for l in layers if l["layer"] == "opcheck"), None),
         "layers": layers,
     }
 
