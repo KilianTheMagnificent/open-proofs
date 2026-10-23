@@ -1,0 +1,8 @@
+.lake/
+work/
+__pycache__/
+*.pyc
+.DS_Store
+# adversarial test copies (installed and removed by tests/run_adversarial.py)
+OpenProofs/Adversarial/
+OpenProofs/Statements/AdvFixture*.lean

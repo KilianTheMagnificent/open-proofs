@@ -1,0 +1,16 @@
+{
+ "claims": [
+  {
+   "id": "erdos349.exists_finsetSum_two_pow",
+   "module": "OpenProofs.Results.Erdos.P349_exists_finsetSum_two_pow",
+   "theorem": "OpenProofs.Erdos349.exists_finsetSum_two_pow",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«349»",
+   "ref_theorem": "Erdos349.exists_finsetSum_two_pow",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "Binary expansion: every natural number is a sum of distinct powers of two.",
+   "notes": "Pipeline smoke test. Upstream tags this `textbook` and already links an external formal proof (formal_proof attribute), so it adds little beyond validating the checker."
+  }
+ ]
+}

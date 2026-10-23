@@ -1,0 +1,17 @@
+{
+  "formal_conjectures": {
+    "url": "https://github.com/google-deepmind/formal-conjectures",
+    "commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "commit_date": "2026-10-23",
+    "note": "Read-only upstream reference. Lake dependency `formal_conjectures`; Mathlib and the Lean toolchain follow this commit."
+  },
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "erdosproblems_db": {
+    "url": "https://github.com/teorth/erdosproblems",
+    "file": "data/problems.yaml",
+    "commit": "b54586ad2079b6eb0a1710f9883011802e6cd261",
+    "fetched": "2026-10-23",
+    "note": "Status source behind erdosproblems.com, used only for triage cross-checks. Local copy lives in work/erdos-db/ (gitignored); fetch with scripts/fetch_erdos_db.sh."
+  }
+}

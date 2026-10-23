@@ -1,0 +1,30 @@
+name = "open_proofs"
+defaultTargets = ["OpenProofs", "opcheck"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+# Read-only upstream reference: google-deepmind/formal-conjectures, pinned to an
+# exact commit. Mathlib comes in transitively at the version upstream pins.
+# Change the pin only via `scripts/bump_upstream.sh` (see AGENTS.md), never by hand.
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "96343eeb5990ff13735e728cd0195eff0156a3bb"
+
+# Machine-checked results. One module per claimed result.
+[[lean_lib]]
+name = "OpenProofs"
+globs = ["OpenProofs.+"]
+
+# The checker: a standalone executable that loads compiled .olean files and
+# inspects them. It never imports result modules at compile time.
+[[lean_lib]]
+name = "OpenProofsChecker"
+globs = ["OpenProofsChecker.+"]
+
+[[lean_exe]]
+name = "opcheck"
+root = "OpenProofsChecker.Main"
+supportInterpreter = true
