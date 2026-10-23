@@ -44,7 +44,7 @@ nothing to do with the problem (Roth/Szemerédi-type bounds are never used).
 - Proofs: `OpenProofs/Results/Erdos/P142_no_constant_answer.lean`,
   `OpenProofs/Results/Erdos/P142_isTheta_no_constant_answer.lean`.
   `#print axioms`: [propext, Classical.choice, Quot.sound] for both (also checked in `work/scratch/agentAudit/p142.lean`).
-- Checker verdict: not run by the auditing agent (the coordinator runs `scripts/check.py`).
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos142.erdos_142` follows from the answer-free form in one line (`fun h => erdos_142.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_142.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix

@@ -7,7 +7,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:17:47Z",
+    "checked_at": "2026-10-23T16:59:19Z",
     "id": "congruent.not_one",
     "layers": [
      {
@@ -35,7 +35,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -122,12 +122,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -159,7 +159,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:30:04Z",
+    "checked_at": "2026-10-23T17:04:26Z",
     "id": "erdos1193.parts.i",
     "layers": [
      {
@@ -187,7 +187,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -274,12 +274,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -311,7 +311,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:30:38Z",
+    "checked_at": "2026-10-23T17:04:50Z",
     "id": "erdos1193.parts.ii",
     "layers": [
      {
@@ -426,12 +426,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -463,7 +463,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:29:32Z",
+    "checked_at": "2026-10-23T17:03:55Z",
     "id": "erdos1193.variants.sumRep_univ",
     "layers": [
      {
@@ -491,7 +491,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -578,12 +578,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -615,7 +615,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:31:09Z",
+    "checked_at": "2026-10-23T17:05:15Z",
     "id": "erdos1193.variants.upper_density_pos",
     "layers": [
      {
@@ -730,12 +730,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -767,7 +767,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:20:14Z",
+    "checked_at": "2026-10-23T17:00:31Z",
     "id": "erdos138.W_one",
     "layers": [
      {
@@ -795,7 +795,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -882,12 +882,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -919,7 +919,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:23:45Z",
+    "checked_at": "2026-10-23T17:01:00Z",
     "id": "erdos138.W_two",
     "layers": [
      {
@@ -947,7 +947,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1034,12 +1034,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1064,6 +1064,310 @@
     "statement": ": W 2 = 3"
    }
   },
+  "erdos142.erdos_142.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:06:56Z",
+    "id": "erdos142.erdos_142.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8975/8975] Built OpenProofs.Statements.Erdos142 (4.1s)\nwarning: OpenProofs/Statements/Erdos142.lean:19:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos142.lean:24:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P142_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "14 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P142_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos142.erdos_142.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P142_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): the answer `erdos_142.answer : ℕ → ℝ` cannot depend on k, but r k N does (r 0 N = N, r 2 N ≤ 1). Draft: outbox/misformalization-Erdos142-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos142",
+    "ref_theorem": "OpenProofs.Statements.Erdos142.erdos_142.no_constant_answer",
+    "summary": "Upstream `Erdos142.erdos_142` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos142.erdos_142.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos142.lean",
+    "formal_proof": false,
+    "line": 19,
+    "sorry": true,
+    "statement": ": ∀ g : ℕ → ℝ, ¬ ∀ k : ℕ, (fun N => (r k N : ℝ)) ~[atTop] g"
+   }
+  },
+  "erdos142.erdos_142.variants.isTheta.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:07:25Z",
+    "id": "erdos142.erdos_142.variants.isTheta.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos142 (4.3s)\nwarning: OpenProofs/Statements/Erdos142.lean:19:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos142.lean:24:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P142_isTheta_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "10 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P142_isTheta_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos142.erdos_142.variants.isTheta.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P142_isTheta_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): same as erdos_142, Θ version. Draft: outbox/misformalization-Erdos142-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos142",
+    "ref_theorem": "OpenProofs.Statements.Erdos142.erdos_142.variants.isTheta.no_constant_answer",
+    "summary": "Upstream `Erdos142.erdos_142.variants.isTheta` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos142.erdos_142.variants.isTheta.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos142.lean",
+    "formal_proof": false,
+    "line": 24,
+    "sorry": true,
+    "statement": ": ∀ g : ℕ → ℝ, ¬ ∀ k : ℕ, (fun N => (r k N : ℝ)) =Θ[atTop] g"
+   }
+  },
   "erdos292.variants.mul": {
    "check": {
     "axioms": [
@@ -1071,7 +1375,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:56:12Z",
+    "checked_at": "2026-10-23T16:55:29Z",
     "id": "erdos292.variants.mul",
     "layers": [
      {
@@ -1186,12 +1490,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1223,7 +1527,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:56:40Z",
+    "checked_at": "2026-10-23T16:55:54Z",
     "id": "erdos292.variants.prime_pow",
     "layers": [
      {
@@ -1338,12 +1642,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1375,7 +1679,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:55:45Z",
+    "checked_at": "2026-10-23T16:55:03Z",
     "id": "erdos292.variants.two_mul",
     "layers": [
      {
@@ -1490,12 +1794,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1520,6 +1824,310 @@
     "statement": ": ∀ n ∈ A, 1 < n → 2 * n ∈ A"
    }
   },
+  "erdos319.erdos_319.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:07:52Z",
+    "id": "erdos319.erdos_319.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos319 (4.3s)\nwarning: OpenProofs/Statements/Erdos319.lean:15:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P319_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: false)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "38 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P319_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos319.erdos_319.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P319_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every N; maximum ≤ 1 at N = 1 and ≥ 3 at N = 6 ({2,3,6}). Draft: outbox/misformalization-Erdos319-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos319",
+    "ref_theorem": "OpenProofs.Statements.Erdos319.erdos_319.no_constant_answer",
+    "summary": "Upstream `Erdos319.erdos_319` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos319.erdos_319.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos319.lean",
+    "formal_proof": false,
+    "line": 15,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ, ¬ ∀ N : ℕ, IsGreatest { #A | (A) (_ : A ⊆ Finset.Icc 1 N) (_ : ∃ δ : ℕ → ℤˣ, ∑ n ∈ A, (δ n : ℚ) / n = 0 ∧ ∀ A' ⊂ A, A'.Nonempty → ∑ n ∈ A', (δ n : ℚ) / n ≠ 0) } a"
+   }
+  },
+  "erdos321.erdos_321.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:08:18Z",
+    "id": "erdos321.erdos_321.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos321 (4.3s)\nwarning: OpenProofs/Statements/Erdos321.lean:16:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P321_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "4 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P321_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos321.erdos_321.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P321_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every N; R 0 = 0, R 1 ≥ 1. Draft: outbox/misformalization-Erdos321-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos321",
+    "ref_theorem": "OpenProofs.Statements.Erdos321.erdos_321.no_constant_answer",
+    "summary": "Upstream `Erdos321.erdos_321` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos321.erdos_321.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos321.lean",
+    "formal_proof": false,
+    "line": 16,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ, ¬ ∀ N : ℕ, R N = a"
+   }
+  },
   "erdos349.exists_finsetSum_two_pow": {
    "check": {
     "axioms": [
@@ -1527,7 +2135,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:55:16Z",
+    "checked_at": "2026-10-23T16:54:39Z",
     "id": "erdos349.exists_finsetSum_two_pow",
     "layers": [
      {
@@ -1555,7 +2163,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Built opcheck:exe (1.6s)\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1640,12 +2248,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1670,6 +2278,918 @@
     "statement": "(k : ℕ) : ∃ E : Finset ℕ, k = ∑ i ∈ E, 2 ^ i"
    }
   },
+  "erdos361.erdos_361.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:08:45Z",
+    "id": "erdos361.erdos_361.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos361 (4.6s)\nwarning: OpenProofs/Statements/Erdos361.lean:17:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P361_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "10 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P361_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos361.erdos_361.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P361_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): answer : ℕ → ℕ cannot depend on c; at n = 2, c = 1/4 gives 0 and c = 1 gives 1. Draft: outbox/misformalization-Erdos361-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos361",
+    "ref_theorem": "OpenProofs.Statements.Erdos361.erdos_361.no_constant_answer",
+    "summary": "Upstream `Erdos361.erdos_361` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos361.erdos_361.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos361.lean",
+    "formal_proof": false,
+    "line": 17,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ → ℕ, ¬ ∀ c : ℝ, 0 < c → subsetSumAvoidanceNumber c = a"
+   }
+  },
+  "erdos409.erdos_409.parts.i.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:09:14Z",
+    "id": "erdos409.erdos_409.parts.i.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos409 (4.5s)\nwarning: OpenProofs/Statements/Erdos409.lean:17:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos409.lean:22:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P409_parts_i_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: false)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "15 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P409_parts_i_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos409.erdos_409.parts.i.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P409_parts_i_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant iteration count for every n; 0 at n = 2, not at n = 1. Draft: outbox/misformalization-Erdos409-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos409",
+    "ref_theorem": "OpenProofs.Statements.Erdos409.erdos_409.parts.i.no_constant_answer",
+    "summary": "Upstream `Erdos409.erdos_409.parts.i` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos409.erdos_409.parts.i.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos409.lean",
+    "formal_proof": false,
+    "line": 17,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ, ¬ ∀ n : ℕ, 0 < n → IsLeast { i | (φ · + 1)^[i] n |>.Prime } a"
+   }
+  },
+  "erdos409.erdos_409.variants.sigma.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:09:48Z",
+    "id": "erdos409.erdos_409.variants.sigma.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos409 (4.8s)\nwarning: OpenProofs/Statements/Erdos409.lean:17:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos409.lean:22:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P409_sigma_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: false)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "21 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P409_sigma_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos409.erdos_409.variants.sigma.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P409_sigma_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant iteration count for every n; 0 at n = 2, not at n = 6. Draft: outbox/misformalization-Erdos409-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos409",
+    "ref_theorem": "OpenProofs.Statements.Erdos409.erdos_409.variants.sigma.no_constant_answer",
+    "summary": "Upstream `Erdos409.erdos_409.variants.sigma` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos409.erdos_409.variants.sigma.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos409.lean",
+    "formal_proof": false,
+    "line": 22,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ, ¬ ∀ n : ℕ, n > 1 → (∃ i, (σ 1 · - 1)^[i] n |>.Prime) → IsLeast { i | (σ 1 · - 1)^[i] n |>.Prime } a"
+   }
+  },
+  "erdos450.erdos_450.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:10:33Z",
+    "id": "erdos450.erdos_450.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos450 (4.5s)\nwarning: OpenProofs/Statements/Erdos450.lean:17:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P450_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "11 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P450_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos450.erdos_450.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P450_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every ε, n; windowThreshold 1 2 = 0 but windowThreshold (1/4) 2 ≠ 0. Draft: outbox/misformalization-Erdos450-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos450",
+    "ref_theorem": "OpenProofs.Statements.Erdos450.erdos_450.no_constant_answer",
+    "summary": "Upstream `Erdos450.erdos_450` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos450.erdos_450.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos450.lean",
+    "formal_proof": false,
+    "line": 17,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ∞, ¬ ∀ ε : ℝ, 0 < ε → ∀ n : ℕ, windowThreshold ε n = a"
+   }
+  },
+  "erdos503.erdos_503.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:11:07Z",
+    "id": "erdos503.erdos_503.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos503 (4.7s)\nwarning: OpenProofs/Statements/Erdos503.lean:17:8: declaration uses `sorry`\n⚠ [8975/8975] Built OpenProofs.Results.Erdos.P503_no_constant_answer (4.9s)\nwarning: OpenProofs/Results/Erdos/P503_no_constant_answer.lean:18:45: Variable name `hA` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hA\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P503_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: false)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "24 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P503_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos503.erdos_503.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P503_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every dimension n; ≤ 1 in ℝ^0, ≥ 2 in ℝ^1. Draft: outbox/misformalization-Erdos503-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos503",
+    "ref_theorem": "OpenProofs.Statements.Erdos503.erdos_503.no_constant_answer",
+    "summary": "Upstream `Erdos503.erdos_503` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos503.erdos_503.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos503.lean",
+    "formal_proof": false,
+    "line": 17,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ, ¬ ∀ n : ℕ, IsGreatest {(A.ncard) | (A : Set (ℝ^n)) (hA : A.IsIsosceles)} a"
+   }
+  },
+  "erdos552.erdos_552.parts.i.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:11:38Z",
+    "id": "erdos552.erdos_552.parts.i.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos552 (4.3s)\nwarning: OpenProofs/Statements/Erdos552.lean:15:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P552_parts_i_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "12 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P552_parts_i_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos552.erdos_552.parts.i.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P552_parts_i_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every n; R(C4, K_{1,0}) = 1 ≠ R(C4, K_{1,1}). Draft: outbox/misformalization-Erdos552-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos552",
+    "ref_theorem": "OpenProofs.Statements.Erdos552.erdos_552.parts.i.no_constant_answer",
+    "summary": "Upstream `Erdos552.erdos_552.parts.i` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos552.erdos_552.parts.i.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos552.lean",
+    "formal_proof": false,
+    "line": 15,
+    "sorry": true,
+    "statement": ": ∀ a : ℕ, ¬ ∀ (n : ℕ), SimpleGraph.graphRamsey (SimpleGraph.cycleGraph 4) (completeBipartiteGraph (Fin 1) (Fin n)) = a"
+   }
+  },
   "erdos554.one_colour_C5": {
    "check": {
     "axioms": [
@@ -1677,7 +3197,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:18:59Z",
+    "checked_at": "2026-10-23T17:00:02Z",
     "id": "erdos554.one_colour_C5",
     "layers": [
      {
@@ -1705,7 +3225,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8974/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1792,12 +3312,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1822,6 +3342,310 @@
     "statement": ": multicolourGraphRamsey 1 (cycleGraph 5) = 5"
    }
   },
+  "erdos629.variants.n_two": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:06:30Z",
+    "id": "erdos629.variants.n_two",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P629_n_two"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "5 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P629_n_two]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "erdos629.variants.n_two",
+    "module": "OpenProofs.Results.Erdos.P629_n_two",
+    "notes": "K_{3,3} with lists {1,2},{1,3},{2,3}; every 2-colourable graph on ≤ 5 vertices is 2-choosable (side-colouring + pigeonhole); Hall's theorem for card-choosability.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.ErdosProblems.«629»",
+    "ref_theorem": "Erdos629.erdos_629.variants.n_two",
+    "summary": "n(2) = 6 (Erdős–Rubin–Taylor): the smallest bipartite graph that is not 2-choosable has 6 vertices.",
+    "theorem": "OpenProofs.Erdos629.erdos_629.variants.n_two",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/ErdosProblems/629.lean",
+    "formal_proof": false,
+    "line": 108,
+    "sorry": true,
+    "statement": ": n 2 = 6"
+   }
+  },
+  "erdos692.erdos_692.parts.ii.no_constant_answer": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:12:06Z",
+    "id": "erdos692.erdos_692.parts.ii.no_constant_answer",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos692 (4.2s)\nwarning: OpenProofs/Statements/Erdos692.lean:16:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": true
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Erdos.P692_parts_ii_no_constant_answer"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin candidate; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "14 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Erdos.P692_parts_ii_no_constant_answer]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "possible-misformalization",
+    "id": "erdos692.erdos_692.parts.ii.no_constant_answer",
+    "module": "OpenProofs.Results.Erdos.P692_parts_ii_no_constant_answer",
+    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant maximizer m₀ for every n; at n = m₀ the value 0 is beaten by m₀ + 2. Draft: outbox/misformalization-Erdos692-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+    "ref_kind": "variant",
+    "ref_module": "OpenProofs.Statements.Erdos692",
+    "ref_theorem": "OpenProofs.Statements.Erdos692.erdos_692.parts.ii.no_constant_answer",
+    "summary": "Upstream `Erdos692.erdos_692.parts.ii` (research open, question value) is false for every value of its placeholder answer.",
+    "theorem": "OpenProofs.Erdos692.erdos_692.parts.ii.no_constant_answer",
+    "tier": "b"
+   },
+   "reference_source": {
+    "category": null,
+    "file": "OpenProofs/Statements/Erdos692.lean",
+    "formal_proof": false,
+    "line": 16,
+    "sorry": true,
+    "statement": ": ∀ m₀ : ℕ, ¬ ∀ (n : ℕ), ∀ δ : ℕ → ℕ → ℝ, (∀ a b, IsDelta₁ a b (δ a b)) → IsGreatest (δ n '' Set.Ioi (n + 1)) (δ n m₀)"
+   }
+  },
   "erdos828.at_neg_one": {
    "check": {
     "axioms": [
@@ -1829,7 +3653,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:58:38Z",
+    "checked_at": "2026-10-23T16:57:32Z",
     "id": "erdos828.at_neg_one",
     "layers": [
      {
@@ -1857,7 +3681,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8975/8975] Built OpenProofs.Statements.Erdos828 (4.8s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (3.0s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1944,12 +3768,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1981,7 +3805,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:58:02Z",
+    "checked_at": "2026-10-23T16:57:07Z",
     "id": "erdos828.at_zero",
     "layers": [
      {
@@ -2009,7 +3833,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (4.9s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (4.2s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2096,12 +3920,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2133,7 +3957,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:01:52Z",
+    "checked_at": "2026-10-23T16:58:24Z",
     "id": "erdos902.variants.erdos_lower",
     "layers": [
      {
@@ -2161,7 +3985,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2248,12 +4072,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "a2e5290ce8ee6a7e3467ae47b12f134b1438536b",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2285,7 +4109,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:00:57Z",
+    "checked_at": "2026-10-23T16:57:56Z",
     "id": "erdos902.variants.f_two",
     "layers": [
      {
@@ -2400,12 +4224,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "a2e5290ce8ee6a7e3467ae47b12f134b1438536b",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2437,7 +4261,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:26:57Z",
+    "checked_at": "2026-10-23T17:01:55Z",
     "id": "ramanujanTau.multipliable",
     "layers": [
      {
@@ -2552,12 +4376,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2589,7 +4413,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:25:56Z",
+    "checked_at": "2026-10-23T17:01:26Z",
     "id": "ramanujanTau.two",
     "layers": [
      {
@@ -2704,12 +4528,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2734,6 +4558,159 @@
     "statement": ": τ 2 = -24"
    }
   },
+  "ramsey.three_five": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-23T17:06:04Z",
+    "id": "ramsey.three_five",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "2 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8965/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Wikipedia.RamseyNumbers_three_five",
+       "OpenProofs.Results.Wikipedia.RamseyNumbers_three_four"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "5 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Wikipedia.RamseyNumbers_three_five, OpenProofs.Results.Wikipedia.RamseyNumbers_three_four]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 2 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 2 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "ramsey.three_five",
+    "module": "OpenProofs.Results.Wikipedia.RamseyNumbers_three_five",
+    "notes": "Upper bound via degree ≤ 4 and R(3,4) = 9 on the non-neighbourhood (imports the R(3,4) result module); lower bound: circulant graph on Z/13 with differences ±1, ±5 by kernel decide.",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.Wikipedia.RamseyNumbers",
+    "ref_theorem": "RamseyNumbers.ramsey_number_three_five",
+    "summary": "R(3,5) = 14.",
+    "theorem": "OpenProofs.RamseyNumbers.ramsey_number_three_five",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "research solved",
+    "file": "FormalConjectures/Wikipedia/RamseyNumbers.lean",
+    "formal_proof": false,
+    "line": 139,
+    "sorry": true,
+    "statement": ": R(3, 5) = 14"
+   }
+  },
   "ramsey.three_four": {
    "check": {
     "axioms": [
@@ -2741,7 +4718,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:57:33Z",
+    "checked_at": "2026-10-23T16:56:44Z",
     "id": "ramsey.three_four",
     "layers": [
      {
@@ -2856,12 +4833,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2893,7 +4870,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T15:57:07Z",
+    "checked_at": "2026-10-23T16:56:18Z",
     "id": "ramsey.three_three",
     "layers": [
      {
@@ -3008,12 +4985,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "26330fc4a7db3b54c58b212581ae4fe5151a626e",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3045,7 +5022,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:28:52Z",
+    "checked_at": "2026-10-23T17:03:28Z",
     "id": "wow.C6_girth",
     "layers": [
      {
@@ -3161,12 +5138,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3198,7 +5175,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:27:43Z",
+    "checked_at": "2026-10-23T17:02:29Z",
     "id": "wow.petersen_girth",
     "layers": [
      {
@@ -3226,7 +5203,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3313,12 +5290,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1ad8b55560cb99640e9f3c3b0aef0cbc182e7bee",
+     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "45cd04e8dbf76e13a4246fea1be94eb295648e95662b032220b4689943e3cb68",
+    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },

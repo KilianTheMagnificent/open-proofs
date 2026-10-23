@@ -33,7 +33,7 @@ own `variants.lower` (Bleicher–Erdős) also makes `R N` unbounded.
   `OpenProofs.Statements.Erdos321.erdos_321.no_constant_answer : ∀ a : ℕ, ¬ ∀ N : ℕ, R N = a`.
 - Proof: `OpenProofs/Results/Erdos/P321_no_constant_answer.lean`. `#print axioms`: [propext, Classical.choice, Quot.sound]
   (scratch copy `work/scratch/agentAudit/p321.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos321.erdos_321` follows from the answer-free form in one line (`fun h => erdos_321.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_321.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix

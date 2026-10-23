@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:31:20Z",
+ "updated": "2026-10-23T17:12:23Z",
  "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
  "_doc": "Target queue. Managed with scripts/loop.py (next/finish/status). Tiers: a = solved/textbook with placeholder upstream; b = special case or small-n variant (self-recorded statement if upstream lacks it); c = open, time-boxed. Lower priority number = sooner.",
  "targets": [
@@ -197,10 +197,18 @@
    "upstream_category": "research solved",
    "upstream_formal_proof": false,
    "erdos_status": "open/unformalized",
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 180,
    "notes": "ERT80: smallest non-2-choosable bipartite graph has 6 vertices (K_{3,3} minus a perfect matching? check). Needs list-colouring API (listChromaticNumber).",
-   "attempts": []
+   "attempts": [
+    {
+     "started": "2026-10-23T16:32:32Z",
+     "outcome": "proved",
+     "notes": "subagent; Hall's theorem + side-colouring pigeonhole; checker PASS",
+     "finished": "2026-10-23T17:12:23Z",
+     "claim": "erdos629.variants.n_two"
+    }
+   ]
   },
   {
    "id": "Erdos767.erdos_767.variants.czipszer",
@@ -611,10 +619,18 @@
    "upstream_category": "research solved",
    "upstream_formal_proof": false,
    "erdos_status": null,
-   "status": "pending",
+   "status": "proved",
    "timebox_minutes": 240,
    "notes": "R(3,5) = 14: degree argument (triangle-free, no independent 5-set on 14 vertices) and the cyclic graph on Z/13 with differences ±1, ±5 for the lower bound.",
-   "attempts": []
+   "attempts": [
+    {
+     "started": "2026-10-23T16:32:32Z",
+     "outcome": "proved",
+     "notes": "subagent; imports the R(3,4) result module; checker PASS",
+     "finished": "2026-10-23T17:12:23Z",
+     "claim": "ramsey.three_five"
+    }
+   ]
   },
   {
    "id": "Erdos902.erdos_902.variants.szekeres_f_three",
@@ -656,6 +672,237 @@
    "timebox_minutes": 60,
    "notes": "Open (parity of ⌊(3/2)^n⌋, Mahler-type). Expect no progress; time-boxed exploration only.",
    "attempts": []
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos142.erdos_142.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos142",
+   "ref_theorem": "OpenProofs.Statements.Erdos142.erdos_142.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): the answer `erdos_142.answer : ℕ → ℝ` cannot depend on k, but r k N does (r 0 N = N, r 2 N ≤ 1). Draft: outbox/misformalization-Erdos142-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos142.erdos_142.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos142.erdos_142.variants.isTheta.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos142",
+   "ref_theorem": "OpenProofs.Statements.Erdos142.erdos_142.variants.isTheta.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): same as erdos_142, Θ version. Draft: outbox/misformalization-Erdos142-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos142.erdos_142.variants.isTheta.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos319.erdos_319.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos319",
+   "ref_theorem": "OpenProofs.Statements.Erdos319.erdos_319.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every N; maximum ≤ 1 at N = 1 and ≥ 3 at N = 6 ({2,3,6}). Draft: outbox/misformalization-Erdos319-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos319.erdos_319.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos321.erdos_321.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos321",
+   "ref_theorem": "OpenProofs.Statements.Erdos321.erdos_321.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every N; R 0 = 0, R 1 ≥ 1. Draft: outbox/misformalization-Erdos321-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos321.erdos_321.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos361.erdos_361.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos361",
+   "ref_theorem": "OpenProofs.Statements.Erdos361.erdos_361.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): answer : ℕ → ℕ cannot depend on c; at n = 2, c = 1/4 gives 0 and c = 1 gives 1. Draft: outbox/misformalization-Erdos361-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos361.erdos_361.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos409.erdos_409.parts.i.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos409",
+   "ref_theorem": "OpenProofs.Statements.Erdos409.erdos_409.parts.i.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant iteration count for every n; 0 at n = 2, not at n = 1. Draft: outbox/misformalization-Erdos409-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos409.erdos_409.parts.i.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos409.erdos_409.variants.sigma.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos409",
+   "ref_theorem": "OpenProofs.Statements.Erdos409.erdos_409.variants.sigma.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant iteration count for every n; 0 at n = 2, not at n = 6. Draft: outbox/misformalization-Erdos409-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos409.erdos_409.variants.sigma.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos450.erdos_450.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos450",
+   "ref_theorem": "OpenProofs.Statements.Erdos450.erdos_450.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every ε, n; windowThreshold 1 2 = 0 but windowThreshold (1/4) 2 ≠ 0. Draft: outbox/misformalization-Erdos450-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos450.erdos_450.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos503.erdos_503.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos503",
+   "ref_theorem": "OpenProofs.Statements.Erdos503.erdos_503.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every dimension n; ≤ 1 in ℝ^0, ≥ 2 in ℝ^1. Draft: outbox/misformalization-Erdos503-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos503.erdos_503.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos552.erdos_552.parts.i.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos552",
+   "ref_theorem": "OpenProofs.Statements.Erdos552.erdos_552.parts.i.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant answer for every n; R(C4, K_{1,0}) = 1 ≠ R(C4, K_{1,1}). Draft: outbox/misformalization-Erdos552-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos552.erdos_552.parts.i.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
+  },
+  {
+   "id": "OpenProofs.Statements.Erdos692.erdos_692.parts.ii.no_constant_answer",
+   "tier": "b",
+   "priority": 80,
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.Erdos692",
+   "ref_theorem": "OpenProofs.Statements.Erdos692.erdos_692.parts.ii.no_constant_answer",
+   "upstream_category": "research open",
+   "status": "possible-misformalization",
+   "timebox_minutes": 60,
+   "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant maximizer m₀ for every n; at n = m₀ the value 0 is beaten by m₀ + 2. Draft: outbox/misformalization-Erdos692-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator.",
+   "attempts": [
+    {
+     "started": "2026-10-23T17:12:23Z",
+     "finished": "2026-10-23T17:12:23Z",
+     "outcome": "possible-misformalization",
+     "claim": "erdos692.erdos_692.parts.ii.no_constant_answer",
+     "notes": "audit subagent; checker PASS; outbox draft written"
+    }
+   ]
   }
  ]
 }

@@ -35,7 +35,9 @@ with assessment `possible-misformalization`, not `proved`. Draft a report in `ou
 | `scripts/check.py` | Checker driver: runs all five layers, records verdicts. |
 | `scripts/lint.py` | Source lint used by the checker. |
 | `scripts/triage.py` | Lists upstream placeholder theorems into `work/candidates.json`. |
-| `scripts/quickkill.py` | Cheap-automation sweep over upstream statements (misformalization leads). |
+| `scripts/quickkill.py` | Cheap-automation sweep over upstream statements and their negations (misformalization leads). |
+| `scripts/placeholder_deps.py` | Finds upstream theorems written with a proof that still rest on a placeholder (→ `ledger/placeholder-deps.md`). |
+| `scripts/crosscheck_status.py`, `scripts/fetch_erdos_db.sh` | Upstream category vs erdosproblems.com DB (→ `ledger/status-crosscheck.md`). |
 | `scripts/loop.py` | Queue management and the deterministic loop steps. |
 | `claims.json` | What we claim: result module/theorem and the reference it must match. |
 | `ledger/results.json`, `ledger/LEDGER.md` | Checker verdicts (machine-written by `check.py --record`). |
@@ -141,6 +143,13 @@ upstream statement, write the type as `type_of% (Upstream.thm arg₁ arg₂)`: t
 is then mechanically the upstream body with those arguments substituted (see
 `OpenProofs/Statements/Erdos828.lean`). Name what it specializes in the docstring and in the claim's
 `notes`. The ledger shows it as a variant; never present it as the upstream problem.
+
+**Value questions:** an upstream statement that mentions `<thm>.answer` (a `def` whose body is the
+placeholder) can never pass the axiom check, because the placeholder sits in its *type*. Do not
+"fill in" answers. If such a statement is false for every possible answer (e.g. a constant answer
+for a quantity that depends on a quantified parameter: Erdős 142, 319, 321, 361, 409, 450, 503,
+552, 692), record the answer-free negation as a variant (`∀ a, ¬ <body with a for the answer>`)
+and assess it `possible-misformalization`.
 
 Assessments: `proved` (matches upstream and the informal problem), `special-case` (variant),
 `possible-misformalization` (formal statement proved but it does not capture the informal problem;

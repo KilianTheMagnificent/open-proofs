@@ -25,7 +25,8 @@ in `--ref-module RM`):
                      constant body, are a subset of `propext`, `Classical.choice`,
                      `Quot.sound`. The walk does not trust any precomputed axiom data.
 * `candidate_decls`  every declaration in candidate modules of the import closure lives
-                     under `OpenProofs.`, shadows no trusted name (a theorem may mirror a
+                     under `OpenProofs.` (except realized equation lemmas `f.eq_N`/`f.eq_def`/
+                     `f.eq_unfold` of a trusted definition `f`, which must be theorems), shadows no trusted name (a theorem may mirror a
                      trusted theorem's name; nothing may mirror a definition), and is not an axiom,
                      `opaque`, `unsafe`, `partial`, `implemented_by`, `extern`, `export`
                      or `init` declaration. (`csimp` only affects compiled code, so it can
@@ -362,7 +363,19 @@ def run (args : Args) : IO UInt32 := do
       if isExtern env c then problems := problems.push s!"{c}: @[extern]"
       if (getExportNameFor? env c).isSome then problems := problems.push s!"{c}: @[export]"
       if hasInitAttr env c then problems := problems.push s!"{c}: @[init]"
-      unless (`OpenProofs).isPrefixOf u do
+      -- Lean realizes equation lemmas of a definition (`f.eq_1`, `f.eq_def`, `f.eq_unfold`) on
+      -- demand, in the first module that needs them, under the definition's own name. Such a
+      -- lemma for a trusted definition is allowed outside `OpenProofs.` when it is a theorem
+      -- (its proof is still replayed by the kernel below). Anything else must live under
+      -- `OpenProofs.`.
+      let isRealizedEqn : Bool := match u, cinfo with
+        | .str p s, .thmInfo _ =>
+          ((s.startsWith "eq_" && (s.drop 3).toString.length > 0 &&
+              (s.drop 3).toString.all Char.isDigit) || s == "eq_def" || s == "eq_unfold") &&
+            (match modOf p with | some pm => !isCandidate pm | none => false) &&
+            (match env.find? p with | some (.defnInfo _) => true | _ => false)
+        | _, _ => false
+      unless (`OpenProofs).isPrefixOf u || isRealizedEqn do
         problems := problems.push s!"{c}: declared outside the `OpenProofs` namespace"
       -- Shadowing: a candidate declaration whose name ends in the full name of a trusted
       -- declaration would win name resolution inside its namespace. A theorem that mirrors

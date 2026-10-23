@@ -42,7 +42,7 @@ prime); for `variants.sigma`, `n = 2` gives `0` and `n = 6` does not (6 is not p
 - Proofs: `OpenProofs/Results/Erdos/P409_parts_i_no_constant_answer.lean`,
   `OpenProofs/Results/Erdos/P409_sigma_no_constant_answer.lean`. `#print axioms`: [propext, Classical.choice, Quot.sound] for both
   (scratch copy `work/scratch/agentAudit/p409.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos409.erdos_409.parts.i` follows from the answer-free form in one line (`fun h => erdos_409.parts.i.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_409.parts.i.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix

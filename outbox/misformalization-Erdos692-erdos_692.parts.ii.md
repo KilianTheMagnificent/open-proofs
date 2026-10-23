@@ -45,7 +45,7 @@ statement is not vacuous and its negation holds for every value of the placehold
 - Proof: `OpenProofs/Results/Erdos/P692_parts_ii_no_constant_answer.lean` (includes a general
   lemma: a periodic subset of ℕ has natural density `count/L`). `#print axioms`:
   [propext, Classical.choice, Quot.sound] (scratch copy `work/scratch/agentAudit/p692.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos692.erdos_692.parts.ii` follows in one line, but mentions
   `erdos_692.parts.ii.answer`, whose body is a placeholder, so this project's axiom check would
   reject it. The answer-free form is strictly stronger.

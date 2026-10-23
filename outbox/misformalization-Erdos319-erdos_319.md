@@ -37,7 +37,7 @@ Hence no value of the placeholder makes `∀ N, IsGreatest … answer` true.
   (upstream body with the placeholder replaced by a bound `a`).
 - Proof: `OpenProofs/Results/Erdos/P319_no_constant_answer.lean`. `#print axioms`: [propext, Classical.choice, Quot.sound]
   (scratch copy `work/scratch/agentAudit/p319b.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos319.erdos_319` follows from the answer-free form in one line (`fun h => erdos_319.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_319.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix

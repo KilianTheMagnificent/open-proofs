@@ -38,7 +38,7 @@ one-vertex graph `K_{1,0}` in any complement; zero vertices embed neither graph)
      (completeBipartiteGraph (Fin 1) (Fin n)) = a`.
 - Proof: `OpenProofs/Results/Erdos/P552_parts_i_no_constant_answer.lean`. `#print axioms`: [propext, Classical.choice, Quot.sound]
   (scratch copy `work/scratch/agentAudit/p552.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos552.erdos_552.parts.i` follows from the answer-free form in one line (`fun h => erdos_552.parts.i.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_552.parts.i.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix

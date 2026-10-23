@@ -35,7 +35,7 @@ contains `3`, which has the divisor `3 ∈ (2, 4)`, and `1 > 2/4`, so the thresh
    ∀ a : ℕ∞, ¬ ∀ ε : ℝ, 0 < ε → ∀ n : ℕ, windowThreshold ε n = a`.
 - Proof: `OpenProofs/Results/Erdos/P450_no_constant_answer.lean`. `#print axioms`: [propext, Classical.choice, Quot.sound]
   (scratch copy `work/scratch/agentAudit/p450.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos450.erdos_450` follows from the answer-free form in one line (`fun h => erdos_450.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_450.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix

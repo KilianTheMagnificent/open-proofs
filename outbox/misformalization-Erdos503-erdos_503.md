@@ -34,7 +34,7 @@ each other under `erdos_503`.)
    ∀ a : ℕ, ¬ ∀ n : ℕ, IsGreatest {(A.ncard) | (A : Set (ℝ^n)) (hA : A.IsIsosceles)} a`.
 - Proof: `OpenProofs/Results/Erdos/P503_no_constant_answer.lean`. `#print axioms`: [propext, Classical.choice, Quot.sound]
   (scratch copy `work/scratch/agentAudit/p503.lean`).
-- Checker verdict: not run by the auditing agent.
+- Checker verdict: PASS on all five layers (coordinator run, 2026-10-23; see `ledger/LEDGER.md`).
 - The literal negation `¬ type_of% @Erdos503.erdos_503` follows from the answer-free form in one line (`fun h => erdos_503.no_constant_answer _ h`, checked in scratch), but it mentions `erdos_503.answer`, whose body is a placeholder, so its axiom list contains the placeholder axiom and this project's checker would reject it. The answer-free form is strictly stronger and is what was proved.
 
 ## Suggested fix
