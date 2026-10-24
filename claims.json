@@ -1391,6 +1391,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "SquarePacking.fifteen_circle_packing_in_circle_bound",
+   "module": "OpenProofs.Results.Wikipedia.SquarePacking_fifteen_circle_packing_in_circle_bound",
+   "theorem": "OpenProofs.SquarePacking.fifteen_circle_packing_in_circle_bound",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.SquarePacking",
+   "ref_theorem": "SquarePacking.fifteen_circle_packing_in_circle_bound",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
