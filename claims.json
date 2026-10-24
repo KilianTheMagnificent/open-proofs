@@ -443,6 +443,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "BrennanConjecture.integralMeansSpectrum_id",
+   "module": "OpenProofs.Results.Wikipedia.Brennanconjecture_integralMeansSpectrum_id",
+   "theorem": "OpenProofs.BrennanConjecture.integralMeansSpectrum_id",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.Brennanconjecture",
+   "ref_theorem": "BrennanConjecture.integralMeansSpectrum_id",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }

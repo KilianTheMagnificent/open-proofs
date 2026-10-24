@@ -81,3 +81,22 @@ the ledger's trusted-base hashes current.
   `lake env lean <file>` and check its exit status. `./op done` (the full checker) is unaffected.
 - Kernel-computation tip: write the search helpers with `List.rec`/`Nat.rec`. The pattern-matching
   versions ran out of kernel memory under `-M8192`.
+
+## Loop summary 2026-10-24 (startup budget=1, branch task/turnkey)
+
+- Budget exhausted: attempted one target, proved `BrennanConjecture.integralMeansSpectrum_id`.
+  The identity has derivative one, making the numerator constant; the absolute logarithm in
+  the denominator tends to infinity as the radius approaches one from below.
+  Proof: `OpenProofs/Results/Wikipedia/Brennanconjecture_integralMeansSpectrum_id.lean`.
+- Checks: `./op preflight` OK (10/10 lint and 9/9 integrity expectations);
+  `./op try ... --goals` OK with zero errors and warnings; `./op done` PASS on all five layers,
+  syntactic statement identity, only `propext`, `Classical.choice`, `Quot.sound`.
+  Ledger now has 38/38 PASS, 4115 pending targets, and no active claim.
+  Full adversarial suite and deep replay were not rerun; no tooling or trusted-base edits.
+- Tooling follow-up: `cmd_done` ignores `cmd_commit`'s return code and prints "recorded and
+  committed" even when sandboxed Git cannot create `.git/index.lock`. Observed here on
+  `9aa0625`; the proof and ledger were recorded correctly. Proposed maintenance fix: retain
+  the commit return code and report "recorded; commit pending" on failure. No tooling edits
+  made during this loop.
+- Next safe action: `startup` for the next budgeted loop; next queued target is
+  `Erdos1074.erdos_1074.variants.EHSNumbers_init`. No merge, push, or upstream submission.
