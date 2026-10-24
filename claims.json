@@ -587,6 +587,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OpenQuantumProblem23.hesseFamily_pairwise",
+   "module": "OpenProofs.Results.OpenQuantumProblems.P23_hesseFamily_pairwise",
+   "theorem": "OpenProofs.OpenQuantumProblem23.hesseFamily_pairwise",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OpenQuantumProblems.«23»",
+   "ref_theorem": "OpenQuantumProblem23.hesseFamily_pairwise",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
