@@ -971,6 +971,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "ComplexityTheory.P_subset_BPP",
+   "module": "OpenProofs.Results.Millennium.PvsNP_P_subset_BPP",
+   "theorem": "OpenProofs.ComplexityTheory.P_subset_BPP",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Millennium.PvsNP",
+   "ref_theorem": "ComplexityTheory.P_subset_BPP",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos649.erdos_649.variants.sampaio",
+   "module": "OpenProofs.Results.Erdos.P649_erdos_649_variants_sampaio",
+   "theorem": "OpenProofs.Erdos649.erdos_649.variants.sampaio",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«649»",
+   "ref_theorem": "Erdos649.erdos_649.variants.sampaio",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
