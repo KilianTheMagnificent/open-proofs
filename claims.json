@@ -1019,6 +1019,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos770.Nat.Prime.h_eq_add_one",
+   "module": "OpenProofs.Results.Erdos.P770_Nat_Prime_h_eq_add_one",
+   "theorem": "OpenProofs.Erdos770.Nat.Prime.h_eq_add_one",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«770»",
+   "ref_theorem": "Erdos770.Nat.Prime.h_eq_add_one",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
