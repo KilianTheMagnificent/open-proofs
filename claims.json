@@ -1547,6 +1547,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos828.erdos_828.variants.phi_dvd_self_iff_pow2_pow3",
+   "module": "OpenProofs.Results.Erdos.P828_erdos_828_variants_phi_dvd_self_iff_pow2_pow3",
+   "theorem": "OpenProofs.Erdos828.erdos_828.variants.phi_dvd_self_iff_pow2_pow3",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«828»",
+   "ref_theorem": "Erdos828.erdos_828.variants.phi_dvd_self_iff_pow2_pow3",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }

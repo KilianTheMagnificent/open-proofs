@@ -2135,7 +2135,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-24T07:50:14Z",
+    "checked_at": "2026-10-24T07:51:38Z",
     "id": "ComplexityTheory.P_subset_NP",
     "layers": [
      {
@@ -2215,9 +2215,9 @@
         "ok": true
        },
        {
-        "detail": "OpenProofs.ComplexityTheory.PSubNPAux.liftStmt._unsafe_rec: partial",
+        "detail": "no forbidden declarations",
         "name": "candidate_decls",
-        "ok": false
+        "ok": true
        },
        {
         "detail": "replayed 1 candidate module(s)",
@@ -2225,10 +2225,10 @@
         "ok": true
        }
       ],
-      "detail": "failed: ['candidate_decls']",
+      "detail": "all Lean-level checks passed",
       "layer": "opcheck",
       "lean_version": "4.33.1",
-      "ok": false,
+      "ok": true,
       "ref_axioms": [
        "propext",
        "sorryAx",
@@ -2250,14 +2250,14 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "8731412280615555a647f575ad0594301cf1d32c",
+     "commit": "17c00b367b3a833b4acc9ebdf954962043f5e4ef",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
     "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
-    "verdict": "FAIL"
+    "verdict": "PASS"
    },
    "claim": {
     "assessment": "proved",
