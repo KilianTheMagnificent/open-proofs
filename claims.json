@@ -1091,6 +1091,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Mathoverflow17560.mathoverflow_17560.variants.all_nats",
+   "module": "OpenProofs.Results.Mathoverflow.P17560_mathoverflow_17560_variants_all_nats",
+   "theorem": "OpenProofs.Mathoverflow17560.mathoverflow_17560.variants.all_nats",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Mathoverflow.«17560»",
+   "ref_theorem": "Mathoverflow17560.mathoverflow_17560.variants.all_nats",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
