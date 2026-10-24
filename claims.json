@@ -467,6 +467,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos1074.erdos_1074.variants.PillaiPrimes_init",
+   "module": "OpenProofs.Results.Erdos.P1074_erdos_1074_variants_PillaiPrimes_init",
+   "theorem": "OpenProofs.Erdos1074.erdos_1074.variants.PillaiPrimes_init",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1074»",
+   "ref_theorem": "Erdos1074.erdos_1074.variants.PillaiPrimes_init",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
