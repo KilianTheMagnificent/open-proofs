@@ -479,6 +479,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos835.property_iff_chromaticNumber",
+   "module": "OpenProofs.Results.Erdos.P835_property_iff_chromaticNumber",
+   "theorem": "OpenProofs.Erdos835.property_iff_chromaticNumber",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«835»",
+   "ref_theorem": "Erdos835.property_iff_chromaticNumber",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
