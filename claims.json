@@ -923,6 +923,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Constant7a.two_le_irrationalityExponent",
+   "module": "OpenProofs.Results.OptimizationConstants.P7a_two_le_irrationalityExponent",
+   "theorem": "OpenProofs.Constant7a.two_le_irrationalityExponent",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OptimizationConstants.«7a»",
+   "ref_theorem": "Constant7a.two_le_irrationalityExponent",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
