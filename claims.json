@@ -1007,6 +1007,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos748.erdos_748.variants.lower_bound",
+   "module": "OpenProofs.Results.Erdos.P748_erdos_748_variants_lower_bound",
+   "theorem": "OpenProofs.Erdos748.erdos_748.variants.lower_bound",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«748»",
+   "ref_theorem": "Erdos748.erdos_748.variants.lower_bound",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
