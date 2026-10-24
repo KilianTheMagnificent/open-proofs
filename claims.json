@@ -779,6 +779,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Borsuk.borsuk_conjecture.zero",
+   "module": "OpenProofs.Results.Wikipedia.BorsukConjecture_borsuk_conjecture_zero",
+   "theorem": "OpenProofs.Borsuk.borsuk_conjecture.zero",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.BorsukConjecture",
+   "ref_theorem": "Borsuk.borsuk_conjecture.zero",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
