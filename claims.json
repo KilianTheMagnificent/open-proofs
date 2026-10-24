@@ -1451,6 +1451,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos780.erdos_780.variants.sharp",
+   "module": "OpenProofs.Results.Erdos.P780_erdos_780_variants_sharp",
+   "theorem": "OpenProofs.Erdos780.erdos_780.variants.sharp",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«780»",
+   "ref_theorem": "Erdos780.erdos_780.variants.sharp",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
