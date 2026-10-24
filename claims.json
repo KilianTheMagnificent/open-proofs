@@ -1439,6 +1439,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "WolstenholmePrime.wolstenholme_bernoulli",
+   "module": "OpenProofs.Results.Wikipedia.WolstenholmePrime_wolstenholme_bernoulli",
+   "theorem": "OpenProofs.WolstenholmePrime.wolstenholme_bernoulli",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.WolstenholmePrime",
+   "ref_theorem": "WolstenholmePrime.wolstenholme_bernoulli",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }

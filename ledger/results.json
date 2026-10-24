@@ -12011,6 +12011,158 @@
     "statement": ": ∃ (X : Type) (_ : TopologicalSpace X), WeaklyFirstCountableTopology X ∧ ¬ FirstCountableTopology X"
    }
   },
+  "WolstenholmePrime.wolstenholme_bernoulli": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-24T07:37:59Z",
+    "id": "WolstenholmePrime.wolstenholme_bernoulli",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "1 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.Wikipedia.WolstenholmePrime_wolstenholme_bernoulli"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types are identical Exprs (strict incl. binder names: true)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "19 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.Wikipedia.WolstenholmePrime_wolstenholme_bernoulli]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 1 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "syntactic"
+     },
+     {
+      "detail": "replayed 1 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "bc2c1008aa5ae073a6412ea3c9c4cf8226e788e7",
+     "dirty": true
+    },
+    "statement_identity": "syntactic",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "WolstenholmePrime.wolstenholme_bernoulli",
+    "module": "OpenProofs.Results.Wikipedia.WolstenholmePrime_wolstenholme_bernoulli",
+    "notes": "",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.Wikipedia.WolstenholmePrime",
+    "ref_theorem": "WolstenholmePrime.wolstenholme_bernoulli",
+    "summary": "",
+    "theorem": "OpenProofs.WolstenholmePrime.wolstenholme_bernoulli",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "textbook",
+    "file": "FormalConjectures/Wikipedia/WolstenholmePrime.lean",
+    "formal_proof": false,
+    "line": 71,
+    "sorry": true,
+    "statement": "(p : ℕ) : IsWolstenholmePrime p ↔ (p > 7) ∧ Nat.Prime p ∧ ↑p ∣ (bernoulli' (p - 3)).num"
+   }
+  },
   "WolstenholmePrime.wolstenholme_harmonic": {
    "check": {
     "axioms": [
