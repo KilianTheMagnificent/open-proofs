@@ -66,3 +66,17 @@ the ledger's trusted-base hashes current.
   `scripts/check.py --all --record` 35/35 PASS under the current trusted base; `scripts/check.py --integrity` OK.
 - Not run: `leanchecker --fresh` deep replay; quick-kill/placeholder sweeps on non-Erdős
   directories; any upstream submission (out of scope by rule).
+
+## Loop summary 2026-10-23 (startup provers=2 budget=2, branch task/turnkey)
+
+- Preflight OK. Attempted 2 targets, 2 PASS (identity syntactic; axioms propext, Classical.choice, Quot.sound):
+  `Arxiv.«2604.08040».cyc_alternatingGroup_five` (32 cyclic subgroups of A5; kernel `decide`) and
+  `Arxiv.«1609.08688».maximalLength_four` (F(4)=8; explicit witness plus a recursor-based DFS checked
+  by `decide +kernel` in 7 chunks; peak RSS ~6.9 GB under `-M8192`).
+- Bug (open): `./op try` prints `== OK` when Lean crashes without an error message (e.g.
+  `lean::memory_exception` under `-M`). `run_lean` in `scripts/op.py` ignores the exit code. Fix: when
+  the exit code is nonzero and there is no error message, add a synthetic error. Not in the trusted base;
+  the edit was not permitted in this session. Until it is fixed, confirm a kernel-heavy OK with
+  `lake env lean <file>` and check its exit status. `./op done` (the full checker) is unaffected.
+- Kernel-computation tip: write the search helpers with `List.rec`/`Nat.rec`. The pattern-matching
+  versions ran out of kernel memory under `-M8192`.
