@@ -563,6 +563,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OpenQuantumProblem23.hasSICPOVM_three",
+   "module": "OpenProofs.Results.OpenQuantumProblems.P23_hasSICPOVM_three",
+   "theorem": "OpenProofs.OpenQuantumProblem23.hasSICPOVM_three",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OpenQuantumProblems.«23»",
+   "ref_theorem": "OpenQuantumProblem23.hasSICPOVM_three",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
