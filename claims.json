@@ -1487,6 +1487,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos261.erdos_261.variants.borwein_loring_property",
+   "module": "OpenProofs.Results.Erdos.P261_erdos_261_variants_borwein_loring_property",
+   "theorem": "OpenProofs.Erdos261.erdos_261.variants.borwein_loring_property",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«261»",
+   "ref_theorem": "Erdos261.erdos_261.variants.borwein_loring_property",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
