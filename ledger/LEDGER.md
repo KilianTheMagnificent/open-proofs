@@ -8,6 +8,7 @@ The assessment column is the claim's own classification (see `claims.json`); a P
 
 | id | tier | assessment | verdict | reference | axioms | upstream | checked |
 |---|---|---|---|---|---|---|---|
+| `Algebra.exists_quadraticAlgebra_of_isQuadraticExtension` | a | proved | **PASS** | `Algebra.exists_quadraticAlgebra_of_isQuadraticExtension` (upstream; upstream category: textbook; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-24 |
 | `Arxiv.«1609.08688».maximalLength_four` | a | proved | **PASS** | `Arxiv.«1609.08688».maximalLength_four` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-24 |
 | `Arxiv.«2602.05192».finiteAdditiveConvolution_degree` | a | proved | **PASS** | `Arxiv.«2602.05192».finiteAdditiveConvolution_degree` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-24 |
 | `Arxiv.«2604.08040».cyc_alternatingGroup_five` | a | proved | **PASS** | `Arxiv.«2604.08040».cyc_alternatingGroup_five` (upstream; upstream category: test; identity: syntactic) | propext, Classical.choice, Quot.sound | 96343eeb5990 | 2026-10-24 |

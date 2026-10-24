@@ -875,6 +875,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Algebra.exists_quadraticAlgebra_of_isQuadraticExtension",
+   "module": "OpenProofs.Results.Wikipedia.WallSunSun_exists_quadraticAlgebra_of_isQuadraticExtension",
+   "theorem": "OpenProofs.Algebra.exists_quadraticAlgebra_of_isQuadraticExtension",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.WallSunSun",
+   "ref_theorem": "Algebra.exists_quadraticAlgebra_of_isQuadraticExtension",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
