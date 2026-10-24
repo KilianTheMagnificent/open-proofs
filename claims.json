@@ -503,6 +503,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos1088.f_isLeast",
+   "module": "OpenProofs.Results.Erdos.P1088_f_isLeast",
+   "theorem": "OpenProofs.Erdos1088.f_isLeast",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1088»",
+   "ref_theorem": "Erdos1088.f_isLeast",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos91.erdos_91.test.circleSeven_optimal",
+   "module": "OpenProofs.Results.Erdos.P91_erdos_91_test_circleSeven_optimal",
+   "theorem": "OpenProofs.Erdos91.erdos_91.test.circleSeven_optimal",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«91»",
+   "ref_theorem": "Erdos91.erdos_91.test.circleSeven_optimal",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
