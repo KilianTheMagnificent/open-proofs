@@ -1367,6 +1367,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "WeaklyFirstCountable.exists_weakly_first_countable_not_first_countable",
+   "module": "OpenProofs.Results.Paper.WeaklyFirstCountable_exists_weakly_first_countable_not_first_countable",
+   "theorem": "OpenProofs.WeaklyFirstCountable.exists_weakly_first_countable_not_first_countable",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Paper.WeaklyFirstCountable",
+   "ref_theorem": "WeaklyFirstCountable.exists_weakly_first_countable_not_first_countable",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
