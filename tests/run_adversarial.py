@@ -34,6 +34,8 @@ ADV = ROOT / "tests" / "adversarial"
 DEST = ROOT / "OpenProofs" / "Adversarial"
 STMT = ROOT / "OpenProofs" / "Statements"
 FIXTURES = ["AdvFixture.lean", "AdvFixtureBad.lean"]
+LIB = ROOT / "OpenProofs" / "Lib"
+LIB_FIXTURES = ["AdvLibGood.lean", "AdvLibBad.lean"]
 
 
 def install() -> list[str]:
@@ -46,6 +48,10 @@ def install() -> list[str]:
     for f in FIXTURES:
         shutil.copy(ADV / "fixtures" / f, STMT / f)
         mods.append(f"OpenProofs.Statements.{Path(f).stem}")
+    LIB.mkdir(parents=True, exist_ok=True)
+    for f in LIB_FIXTURES:
+        shutil.copy(ADV / "fixtures" / "lib" / f, LIB / f)
+        mods.append(f"OpenProofs.Lib.{Path(f).stem}")
     return mods
 
 
@@ -56,6 +62,8 @@ def uninstall(mods: list[str]) -> None:
         (STMT / f).unlink(missing_ok=True)
     if STMT.exists() and not any(STMT.iterdir()):
         STMT.rmdir()
+    for f in LIB_FIXTURES:
+        (LIB / f).unlink(missing_ok=True)
 
 
 def status(report: dict, name: str):

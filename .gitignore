@@ -6,3 +6,5 @@ __pycache__/
 # adversarial test copies (installed and removed by tests/run_adversarial.py)
 OpenProofs/Adversarial/
 OpenProofs/Statements/AdvFixture*.lean
+OpenProofs/Lib/AdvLib*.lean
+.claude/settings.local.json

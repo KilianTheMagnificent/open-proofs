@@ -155,7 +155,7 @@ def imports_of(src: str) -> list[str]:
 
 
 def module_path(root: Path, module: str) -> Path:
-    parts = [p.strip("«»") for p in module.split(".")]
+    parts = [p.strip("«»") for p in re.findall(r"«[^»]*»|[^.]+", module)]
     return root.joinpath(*parts).with_suffix(".lean")
 
 

@@ -1,0 +1,17 @@
+{
+ "_doc": "Configuration for ./op swarm and the startup skill. Environment variables override each key: OP_PROVERS, OP_PROVER_CLI, OP_PROVER_MODEL, OP_MAX_TURNS, OP_BUDGET, OP_WORKER_TIMEOUT_MINUTES. prover_model empty = the CLI's own default model (no model is hardcoded). To add another agent CLI, add a command template under `cli` (placeholders: {prompt}, {max_turns}, {root}, {model_flag}) and its model flag under `model_flag`.",
+ "provers": 3,
+ "prover_cli": "claude",
+ "prover_model": "",
+ "max_turns": 150,
+ "budget_targets": 0,
+ "worker_timeout_minutes": 120,
+ "cli": {
+  "claude": ["claude", "-p", "{prompt}", "--max-turns", "{max_turns}", "{model_flag}"],
+  "codex": ["codex", "exec", "-C", "{root}", "-s", "workspace-write", "{model_flag}", "{prompt}"]
+ },
+ "model_flag": {
+  "claude": ["--model", "{model}"],
+  "codex": ["-m", "{model}"]
+ }
+}

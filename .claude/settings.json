@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "LEAN_NUM_THREADS": "2",
+    "OP_LEAN_THREADS": "2",
+    "OP_LEAN_MEMORY_MB": "8192",
+    "OP_MAX_TRIES": "4"
+  },
+  "enabledMcpjsonServers": [
+    "lean-lsp"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(./op)",
+      "Bash(./op *)",
+      "Bash(python3 scripts/*)",
+      "Bash(python3 tests/*)",
+      "Bash(lake build *)",
+      "Bash(lake env *)",
+      "Bash(lake exe opcheck *)",
+      "Bash(lake --version)",
+      "Bash(lean *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch*)",
+      "Bash(git switch *)",
+      "Bash(git checkout -b *)",
+      "Bash(git rev-parse*)",
+      "Bash(cd *)",
+      "Bash(pwd)",
+      "Bash(ls*)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(find *)",
+      "Bash(sed -n *)",
+      "Bash(sort *)",
+      "Bash(uniq *)",
+      "Bash(diff *)",
+      "Bash(jq *)",
+      "Bash(echo *)",
+      "Bash(date*)",
+      "Bash(mkdir -p work/*)",
+      "Bash(cp * work/*)",
+      "Read(./**)",
+      "Read(~/.elan/**)",
+      "Edit(OpenProofs/**)",
+      "Edit(ledger/notes/**)",
+      "Edit(outbox/**)",
+      "Edit(docs/TODO.md)",
+      "Edit(work/**)",
+      "Edit(claims.json)",
+      "mcp__lean-lsp",
+      "Agent",
+      "Skill",
+      "WebFetch(domain:www.erdosproblems.com)",
+      "WebFetch(domain:erdosproblems.com)"
+    ],
+    "ask": [
+      "Edit(OpenProofsChecker/**)",
+      "Edit(scripts/**)",
+      "Edit(tests/**)",
+      "Edit(lakefile.toml)",
+      "Edit(lean-toolchain)",
+      "Edit(lake-manifest.json)",
+      "Edit(upstream.json)",
+      "Edit(op.config.json)",
+      "Edit(.claude/**)",
+      "Edit(.mcp.json)",
+      "Edit(AGENTS.md)"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Bash(git remote*)",
+      "Bash(git send-email*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean*)",
+      "Bash(gh)",
+      "Bash(gh *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(ssh *)",
+      "Bash(scp *)",
+      "Bash(rsync *)",
+      "Bash(npm publish*)",
+      "Bash(twine *)",
+      "Bash(uv publish*)",
+      "Bash(lake update*)",
+      "Bash(lake upload*)",
+      "Bash(lake clean*)",
+      "Bash(rm -rf *)",
+      "Edit(.lake/**)",
+      "Artifact",
+      "ArtifactComments",
+      "ArtifactData",
+      "mcp__claude_ai_Gmail",
+      "mcp__claude_ai_Google_Drive",
+      "mcp__claude_ai_Google_Docs",
+      "mcp__claude_ai_Google_Calendar",
+      "mcp__claude_ai_Claude_Docs",
+      "mcp__claude-in-chrome",
+      "mcp__plugin_cloudflare_cloudflare",
+      "mcp__iface"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/op.py\" status --brief",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

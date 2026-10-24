@@ -1,0 +1,3 @@
+#!/bin/sh
+# open-proofs agent CLI: ./op --help
+exec python3 "$(dirname "$0")/scripts/op.py" "$@"

@@ -66,6 +66,8 @@ FORBIDDEN_LAKEFILE_KEYS = [
 def env() -> dict:
     e = dict(os.environ)
     e["PATH"] = f"{ELAN_BIN}:{e.get('PATH', '')}"
+    # Cap Lake's job pool and Lean's threads unless the caller set a value (see `op`).
+    e.setdefault("LEAN_NUM_THREADS", os.environ.get("OP_LEAN_THREADS", "2"))
     return e
 
 

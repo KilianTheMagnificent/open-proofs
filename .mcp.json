@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "lean-lsp": {
+      "command": "${HOME}/.local/bin/lean-lsp-mcp",
+      "args": [
+        "--lean-project-path",
+        ".",
+        "--disable-tools",
+        "lean_build,lean_leansearch,lean_loogle,lean_leanfinder,lean_hammer_premise"
+      ],
+      "env": {
+        "LEAN_NUM_THREADS": "2",
+        "PATH": "${HOME}/.elan/bin:${HOME}/.local/bin:${PATH}"
+      }
+    }
+  }
+}

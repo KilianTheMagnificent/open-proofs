@@ -367,6 +367,42 @@
    "must_fail": [],
    "identity": "syntactic",
    "verdict": "PASS"
+  },
+  {
+   "case": "LibGoodUse",
+   "theorem": "OpenProofs.Adv.LibGoodUse.t",
+   "must_fail": [],
+   "verdict": "PASS",
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.AdvFixture",
+   "ref_theorem": "OpenProofs.Statements.AdvFixture.two_pow_ten"
+  },
+  {
+   "case": "LibSorryUse",
+   "theorem": "OpenProofs.Adv.LibSorryUse.t",
+   "must_fail": [
+    "lint",
+    "axioms"
+   ],
+   "verdict": "FAIL",
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.AdvFixture",
+   "ref_theorem": "OpenProofs.Statements.AdvFixture.two_pow_ten"
+  },
+  {
+   "case": "LibSorryUnused",
+   "theorem": "OpenProofs.Adv.LibSorryUnused.t",
+   "must_fail": [
+    "lint"
+   ],
+   "must_pass": [
+    "axioms",
+    "statement_match"
+   ],
+   "verdict": "FAIL",
+   "ref_kind": "variant",
+   "ref_module": "OpenProofs.Statements.AdvFixture",
+   "ref_theorem": "OpenProofs.Statements.AdvFixture.two_pow_ten"
   }
  ]
 }

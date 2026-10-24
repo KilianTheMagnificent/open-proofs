@@ -7,7 +7,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:59:19Z",
+    "checked_at": "2026-10-24T04:19:21Z",
     "id": "congruent.not_one",
     "layers": [
      {
@@ -35,7 +35,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -122,12 +122,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -159,7 +159,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:04:26Z",
+    "checked_at": "2026-10-24T04:30:32Z",
     "id": "erdos1193.parts.i",
     "layers": [
      {
@@ -187,7 +187,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -274,12 +274,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -311,7 +311,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:04:50Z",
+    "checked_at": "2026-10-24T04:33:31Z",
     "id": "erdos1193.parts.ii",
     "layers": [
      {
@@ -339,7 +339,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -426,12 +426,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -463,7 +463,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:03:55Z",
+    "checked_at": "2026-10-24T04:27:12Z",
     "id": "erdos1193.variants.sumRep_univ",
     "layers": [
      {
@@ -491,7 +491,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -578,12 +578,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -615,7 +615,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:05:15Z",
+    "checked_at": "2026-10-24T04:34:09Z",
     "id": "erdos1193.variants.upper_density_pos",
     "layers": [
      {
@@ -643,7 +643,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -730,12 +730,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -767,7 +767,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:00:31Z",
+    "checked_at": "2026-10-24T04:20:42Z",
     "id": "erdos138.W_one",
     "layers": [
      {
@@ -795,7 +795,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -882,12 +882,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -919,7 +919,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:01:00Z",
+    "checked_at": "2026-10-24T04:21:17Z",
     "id": "erdos138.W_two",
     "layers": [
      {
@@ -947,7 +947,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1034,12 +1034,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1071,7 +1071,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:06:56Z",
+    "checked_at": "2026-10-24T04:41:31Z",
     "id": "erdos142.erdos_142.no_constant_answer",
     "layers": [
      {
@@ -1099,7 +1099,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8975/8975] Built OpenProofs.Statements.Erdos142 (4.1s)\nwarning: OpenProofs/Statements/Erdos142.lean:19:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos142.lean:24:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos142 (4.5s)\nwarning: OpenProofs/Statements/Erdos142.lean:19:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos142.lean:24:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1186,12 +1186,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1223,7 +1223,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:07:25Z",
+    "checked_at": "2026-10-24T04:42:09Z",
     "id": "erdos142.erdos_142.variants.isTheta.no_constant_answer",
     "layers": [
      {
@@ -1251,7 +1251,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos142 (4.3s)\nwarning: OpenProofs/Statements/Erdos142.lean:19:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos142.lean:24:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos142 (4.9s)\nwarning: OpenProofs/Statements/Erdos142.lean:19:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos142.lean:24:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1338,12 +1338,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1375,7 +1375,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:55:29Z",
+    "checked_at": "2026-10-24T04:14:37Z",
     "id": "erdos292.variants.mul",
     "layers": [
      {
@@ -1403,7 +1403,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1490,12 +1490,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1527,7 +1527,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:55:54Z",
+    "checked_at": "2026-10-24T04:15:09Z",
     "id": "erdos292.variants.prime_pow",
     "layers": [
      {
@@ -1555,7 +1555,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1642,12 +1642,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1679,7 +1679,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-24T03:59:35Z",
+    "checked_at": "2026-10-24T04:14:04Z",
     "id": "erdos292.variants.two_mul",
     "layers": [
      {
@@ -1794,7 +1794,7 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "0a405150c1dd7a40d1d03ebb077316096822df7e",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
@@ -1831,7 +1831,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:07:52Z",
+    "checked_at": "2026-10-24T04:42:39Z",
     "id": "erdos319.erdos_319.no_constant_answer",
     "layers": [
      {
@@ -1859,7 +1859,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos319 (4.3s)\nwarning: OpenProofs/Statements/Erdos319.lean:15:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos319 (4.1s)\nwarning: OpenProofs/Statements/Erdos319.lean:15:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -1946,12 +1946,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -1983,7 +1983,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:08:18Z",
+    "checked_at": "2026-10-24T04:43:12Z",
     "id": "erdos321.erdos_321.no_constant_answer",
     "layers": [
      {
@@ -2011,7 +2011,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos321 (4.3s)\nwarning: OpenProofs/Statements/Erdos321.lean:16:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos321 (4.2s)\nwarning: OpenProofs/Statements/Erdos321.lean:16:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2098,12 +2098,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2135,7 +2135,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:54:39Z",
+    "checked_at": "2026-10-24T04:13:31Z",
     "id": "erdos349.exists_finsetSum_two_pow",
     "layers": [
      {
@@ -2163,7 +2163,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2248,12 +2248,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2285,7 +2285,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:08:45Z",
+    "checked_at": "2026-10-24T04:43:42Z",
     "id": "erdos361.erdos_361.no_constant_answer",
     "layers": [
      {
@@ -2313,7 +2313,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos361 (4.6s)\nwarning: OpenProofs/Statements/Erdos361.lean:17:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos361 (4.2s)\nwarning: OpenProofs/Statements/Erdos361.lean:17:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2400,12 +2400,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2437,7 +2437,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:09:14Z",
+    "checked_at": "2026-10-24T04:44:15Z",
     "id": "erdos409.erdos_409.parts.i.no_constant_answer",
     "layers": [
      {
@@ -2465,7 +2465,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos409 (4.5s)\nwarning: OpenProofs/Statements/Erdos409.lean:17:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos409.lean:22:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8975/8975] Built OpenProofs.Statements.Erdos409 (4.1s)\nwarning: OpenProofs/Statements/Erdos409.lean:17:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos409.lean:22:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2552,12 +2552,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2589,7 +2589,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:09:48Z",
+    "checked_at": "2026-10-24T04:44:47Z",
     "id": "erdos409.erdos_409.variants.sigma.no_constant_answer",
     "layers": [
      {
@@ -2617,7 +2617,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos409 (4.8s)\nwarning: OpenProofs/Statements/Erdos409.lean:17:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos409.lean:22:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos409 (4.3s)\nwarning: OpenProofs/Statements/Erdos409.lean:17:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos409.lean:22:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2704,12 +2704,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2741,7 +2741,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:10:33Z",
+    "checked_at": "2026-10-24T04:45:17Z",
     "id": "erdos450.erdos_450.no_constant_answer",
     "layers": [
      {
@@ -2769,7 +2769,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos450 (4.5s)\nwarning: OpenProofs/Statements/Erdos450.lean:17:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos450 (4.0s)\nwarning: OpenProofs/Statements/Erdos450.lean:17:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -2856,12 +2856,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -2893,7 +2893,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:11:07Z",
+    "checked_at": "2026-10-24T04:45:48Z",
     "id": "erdos503.erdos_503.no_constant_answer",
     "layers": [
      {
@@ -2921,7 +2921,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos503 (4.7s)\nwarning: OpenProofs/Statements/Erdos503.lean:17:8: declaration uses `sorry`\n⚠ [8975/8975] Built OpenProofs.Results.Erdos.P503_no_constant_answer (4.9s)\nwarning: OpenProofs/Results/Erdos/P503_no_constant_answer.lean:18:45: Variable name `hA` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hA\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos503 (4.1s)\nwarning: OpenProofs/Statements/Erdos503.lean:17:8: declaration uses `sorry`\n⚠ [8975/8975] Built OpenProofs.Results.Erdos.P503_no_constant_answer (4.3s)\nwarning: OpenProofs/Results/Erdos/P503_no_constant_answer.lean:18:45: Variable name `hA` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _hA\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3008,12 +3008,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3045,7 +3045,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:11:38Z",
+    "checked_at": "2026-10-24T04:46:15Z",
     "id": "erdos552.erdos_552.parts.i.no_constant_answer",
     "layers": [
      {
@@ -3073,7 +3073,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos552 (4.3s)\nwarning: OpenProofs/Statements/Erdos552.lean:15:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos552 (4.1s)\nwarning: OpenProofs/Statements/Erdos552.lean:15:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3160,12 +3160,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3197,7 +3197,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:00:02Z",
+    "checked_at": "2026-10-24T04:20:06Z",
     "id": "erdos554.one_colour_C5",
     "layers": [
      {
@@ -3225,7 +3225,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8974/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3312,12 +3312,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3349,7 +3349,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:06:30Z",
+    "checked_at": "2026-10-24T04:40:52Z",
     "id": "erdos629.variants.n_two",
     "layers": [
      {
@@ -3377,7 +3377,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3464,12 +3464,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3501,7 +3501,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:12:06Z",
+    "checked_at": "2026-10-24T04:46:39Z",
     "id": "erdos692.erdos_692.parts.ii.no_constant_answer",
     "layers": [
      {
@@ -3529,7 +3529,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos692 (4.2s)\nwarning: OpenProofs/Statements/Erdos692.lean:16:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos692 (4.2s)\nwarning: OpenProofs/Statements/Erdos692.lean:16:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3616,12 +3616,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3653,7 +3653,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:57:32Z",
+    "checked_at": "2026-10-24T04:17:34Z",
     "id": "erdos828.at_neg_one",
     "layers": [
      {
@@ -3681,7 +3681,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (3.0s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (4.4s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3768,12 +3768,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3805,7 +3805,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:57:07Z",
+    "checked_at": "2026-10-24T04:16:59Z",
     "id": "erdos828.at_zero",
     "layers": [
      {
@@ -3833,7 +3833,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8974/8975] Built OpenProofs.Statements.Erdos828 (4.2s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\n⚠ [8975/8975] Built OpenProofs.Statements.Erdos828 (4.7s)\nwarning: OpenProofs/Statements/Erdos828.lean:15:8: declaration uses `sorry`\nwarning: OpenProofs/Statements/Erdos828.lean:18:8: declaration uses `sorry`\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -3920,12 +3920,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -3957,7 +3957,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:58:24Z",
+    "checked_at": "2026-10-24T04:18:46Z",
     "id": "erdos902.variants.erdos_lower",
     "layers": [
      {
@@ -3985,7 +3985,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4072,12 +4072,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -4109,7 +4109,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:57:56Z",
+    "checked_at": "2026-10-24T04:18:09Z",
     "id": "erdos902.variants.f_two",
     "layers": [
      {
@@ -4137,7 +4137,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4224,12 +4224,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -4261,7 +4261,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:01:55Z",
+    "checked_at": "2026-10-24T04:22:30Z",
     "id": "ramanujanTau.multipliable",
     "layers": [
      {
@@ -4289,7 +4289,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4376,12 +4376,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -4413,7 +4413,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:01:26Z",
+    "checked_at": "2026-10-24T04:21:54Z",
     "id": "ramanujanTau.two",
     "layers": [
      {
@@ -4441,7 +4441,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4528,12 +4528,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -4565,7 +4565,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:06:04Z",
+    "checked_at": "2026-10-24T04:38:34Z",
     "id": "ramsey.three_five",
     "layers": [
      {
@@ -4593,7 +4593,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8965/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4681,12 +4681,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -4718,7 +4718,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:56:44Z",
+    "checked_at": "2026-10-24T04:16:24Z",
     "id": "ramsey.three_four",
     "layers": [
      {
@@ -4746,7 +4746,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4833,12 +4833,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -4870,7 +4870,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T16:56:18Z",
+    "checked_at": "2026-10-24T04:15:43Z",
     "id": "ramsey.three_three",
     "layers": [
      {
@@ -4898,7 +4898,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -4985,12 +4985,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -5022,7 +5022,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:03:28Z",
+    "checked_at": "2026-10-24T04:24:14Z",
     "id": "wow.C6_girth",
     "layers": [
      {
@@ -5050,7 +5050,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -5138,12 +5138,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
@@ -5175,7 +5175,7 @@
      "Classical.choice",
      "Quot.sound"
     ],
-    "checked_at": "2026-10-23T17:02:29Z",
+    "checked_at": "2026-10-24T04:23:09Z",
     "id": "wow.petersen_girth",
     "layers": [
      {
@@ -5203,7 +5203,7 @@
       "ok": true
      },
      {
-      "detail": "ℹ [8967/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
+      "detail": "ℹ [8973/8974] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8974 jobs).",
       "exit_code": 0,
       "layer": "build",
       "ok": true,
@@ -5290,12 +5290,12 @@
      "Quot.sound"
     ],
     "repo": {
-     "commit": "1bce383d84bd6bb8666cf7ab228ff78cd5127ba9",
+     "commit": "41975874d7560d0ec62fa8210d20991f834b3f53",
      "dirty": true
     },
     "statement_identity": "syntactic",
     "toolchain": "leanprover/lean4:v4.33.1",
-    "trusted_base_sha256": "8b6b7bf8afafb9fb99a870456041dfa7c129705acb2e84aaf4c070c0f842203f",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
     "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
     "verdict": "PASS"
    },
