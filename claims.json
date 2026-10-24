@@ -1463,6 +1463,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Borsuk.borsuk_conjecture.one",
+   "module": "OpenProofs.Results.Wikipedia.BorsukConjecture_borsuk_conjecture_one",
+   "theorem": "OpenProofs.Borsuk.borsuk_conjecture.one",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.BorsukConjecture",
+   "ref_theorem": "Borsuk.borsuk_conjecture.one",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
