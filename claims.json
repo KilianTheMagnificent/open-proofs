@@ -683,6 +683,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Arxiv.«2602.05192».finiteAdditiveConvolution_degree",
+   "module": "OpenProofs.Results.Arxiv.P2602_05192_FirstProof4_finiteAdditiveConvolution_degree",
+   "theorem": "OpenProofs.Arxiv.«2602.05192».finiteAdditiveConvolution_degree",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Arxiv.«2602.05192».FirstProof4",
+   "ref_theorem": "Arxiv.«2602.05192».finiteAdditiveConvolution_degree",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
