@@ -887,6 +887,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Arxiv.«2607.05739».x_succ",
+   "module": "OpenProofs.Results.Arxiv.P2607_05739_TanArctanSum_x_succ",
+   "theorem": "OpenProofs.Arxiv.«2607.05739».x_succ",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Arxiv.«2607.05739».TanArctanSum",
+   "ref_theorem": "Arxiv.«2607.05739».x_succ",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
