@@ -378,10 +378,11 @@ def ensure_deps(path: Path) -> list[str]:
 def run_lean(path: Path, timeout: int) -> tuple[list[dict], str, float, bool]:
     t0 = time.time()
     cmd = ["lake", "env", "lean", "--json", f"-j{CAPS['threads']}", f"-M{CAPS['memory_mb']}", str(path)]
+    rc = None
     with try_slot():
         try:
             p = subprocess.run(cmd, cwd=ROOT, env=lean_env(), capture_output=True, text=True, timeout=timeout)
-            out, timed_out = p.stdout + p.stderr, False
+            out, timed_out, rc = p.stdout + p.stderr, False, p.returncode
         except subprocess.TimeoutExpired as e:
             out = (e.stdout or b"").decode() if isinstance(e.stdout, bytes) else (e.stdout or "")
             timed_out = True
@@ -395,6 +396,13 @@ def run_lean(path: Path, timeout: int) -> tuple[list[dict], str, float, bool]:
                 pass
         if line.strip():
             other.append(line)
+    if not timed_out and rc not in (0, None) and not any(m.get("severity") == "error" for m in msgs):
+        # Lean died without reporting an error (e.g. memory_exception under -M, or a crash):
+        # never let that look like success.
+        tail = " | ".join(other[-3:])[:400]
+        msgs.append({"severity": "error", "pos": {"line": 1, "column": 0}, "kind": "crash",
+                     "data": f"lean exited with code {rc} without an error message "
+                             f"(crash or resource limit -M{CAPS['memory_mb']}MB): {tail}"})
     return msgs, "\n".join(other), time.time() - t0, timed_out
 
 

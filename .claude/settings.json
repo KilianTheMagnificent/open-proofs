@@ -63,7 +63,7 @@
       "WebFetch(domain:www.erdosproblems.com)",
       "WebFetch(domain:erdosproblems.com)"
     ],
-    "ask": [
+    "deny": [
       "Edit(OpenProofsChecker/**)",
       "Edit(scripts/**)",
       "Edit(tests/**)",
@@ -74,9 +74,7 @@
       "Edit(op.config.json)",
       "Edit(.claude/**)",
       "Edit(.mcp.json)",
-      "Edit(AGENTS.md)"
-    ],
-    "deny": [
+      "Edit(AGENTS.md)",
       "Bash(git push*)",
       "Bash(git remote*)",
       "Bash(git send-email*)",

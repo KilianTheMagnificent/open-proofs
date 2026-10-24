@@ -214,7 +214,13 @@ lint.py) they were checked under; `./op finish/done` refuses a stale PASS.
 
 **Changing the trusted base** (anything in that hash, or relaxing a rule) needs the owner's
 approval, a new adversarial case for any new rule, a full adversarial run
-(`./op preflight --full`), and `./op recheck`. Loop agents never edit it (Claude Code asks first).
+(`./op preflight --full`), and `./op recheck`.
+
+**Loop sessions never edit tooling.** `.claude/settings.json` denies edits to the checker,
+`scripts/`, `tests/`, `.claude/`, `.mcp.json`, `op.config.json`, `AGENTS.md`, the Lake files
+and `.lake/` (a deny never prompts). If you find a tooling bug, record it with a proposed fix in
+`docs/TODO.md` and carry on. Tooling changes are maintenance work done in an owner-approved
+session (for example one started outside this directory, or after the owner edits the settings).
 
 ## Shared helper library
 

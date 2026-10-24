@@ -73,7 +73,8 @@ the ledger's trusted-base hashes current.
   `Arxiv.«2604.08040».cyc_alternatingGroup_five` (32 cyclic subgroups of A5; kernel `decide`) and
   `Arxiv.«1609.08688».maximalLength_four` (F(4)=8; explicit witness plus a recursor-based DFS checked
   by `decide +kernel` in 7 chunks; peak RSS ~6.9 GB under `-M8192`).
-- Bug (open): `./op try` prints `== OK` when Lean crashes without an error message (e.g.
+- Bug (FIXED in the turnkey iteration: `run_lean` now reports a nonzero exit without messages as an
+  error; verified with a forced `memory_exception`): `./op try` printed `== OK` when Lean crashed without an error message (e.g.
   `lean::memory_exception` under `-M`). `run_lean` in `scripts/op.py` ignores the exit code. Fix: when
   the exit code is nonzero and there is no error message, add a synthetic error. Not in the trusted base;
   the edit was not permitted in this session. Until it is fixed, confirm a kernel-heavy OK with
