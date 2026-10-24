@@ -1103,6 +1103,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OeisA87719.a_exists",
+   "module": "OpenProofs.Results.OEIS.P87719_a_exists",
+   "theorem": "OpenProofs.OeisA87719.a_exists",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OEIS.«87719»",
+   "ref_theorem": "OeisA87719.a_exists",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
