@@ -527,6 +527,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos91.erdos_91.test.equiTriangle_unique_optimal",
+   "module": "OpenProofs.Results.Erdos.P91_erdos_91_test_equiTriangle_unique_optimal",
+   "theorem": "OpenProofs.Erdos91.erdos_91.test.equiTriangle_unique_optimal",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«91»",
+   "ref_theorem": "Erdos91.erdos_91.test.equiTriangle_unique_optimal",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
