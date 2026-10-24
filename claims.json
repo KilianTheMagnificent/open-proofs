@@ -1115,6 +1115,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OeisA105751.prime_divides_some_term",
+   "module": "OpenProofs.Results.OEIS.P105751_prime_divides_some_term",
+   "theorem": "OpenProofs.OeisA105751.prime_divides_some_term",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OEIS.«105751»",
+   "ref_theorem": "OeisA105751.prime_divides_some_term",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
