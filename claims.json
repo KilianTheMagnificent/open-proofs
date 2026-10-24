@@ -1055,6 +1055,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Green35.variants.c_inf_lower_young",
+   "module": "OpenProofs.Results.GreensOpenProblems.P35_c_inf_lower_young",
+   "theorem": "OpenProofs.Green35.variants.c_inf_lower_young",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.GreensOpenProblems.«35»",
+   "ref_theorem": "Green35.variants.c_inf_lower_young",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
