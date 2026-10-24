@@ -100,3 +100,14 @@ the ledger's trusted-base hashes current.
   made during this loop.
 - Next safe action: `startup` for the next budgeted loop; next queued target is
   `Erdos1074.erdos_1074.variants.EHSNumbers_init`. No merge, push, or upstream submission.
+
+### Loop summary 2026-10-24 (Claude Code, provers=1 budget=1)
+
+- Preflight OK (10/10 lint, 9/9 integrity). Branch `task/turnkey`.
+- Attempted 1 target: `Erdos1074.erdos_1074.variants.EHSNumbers_init` (tier a, test) —
+  proved, checker PASS on all five layers, axioms `propext`, `Classical.choice`, `Quot.sound`
+  (commit `45c7e73`). Proof by computation for m ≤ 17: prime witnesses p | m!+1 with
+  p ≢ 1 (mod m) for members, full factorizations of m!+1 for non-members, then
+  `Nat.count`/`Nat.nth_count`. No misformalization signs.
+- Ledger: 39/39 PASS, 4114 pending. No give-ups, nothing blocking; no tooling edits.
+- Next queued: `Erdos1074.erdos_1074.variants.PillaiPrimes_init`. No merge, push or submission.
