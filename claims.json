@@ -1283,6 +1283,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos44.sidon_set_lower_bound",
+   "module": "OpenProofs.Results.Erdos.P44_sidon_set_lower_bound",
+   "theorem": "OpenProofs.Erdos44.sidon_set_lower_bound",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«44»",
+   "ref_theorem": "Erdos44.sidon_set_lower_bound",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
