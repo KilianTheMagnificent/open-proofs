@@ -791,6 +791,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Bugeaud06.hasIntermediateGrowth_of_isGenuinelySublacunary",
+   "module": "OpenProofs.Results.Books.BugeaudDistributionModuloOne_Problem10_6_hasIntermediateGrowth_of_isGenuinelySublacunary",
+   "theorem": "OpenProofs.Bugeaud06.hasIntermediateGrowth_of_isGenuinelySublacunary",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Books.BugeaudDistributionModuloOne.Problem10_6",
+   "ref_theorem": "Bugeaud06.hasIntermediateGrowth_of_isGenuinelySublacunary",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
