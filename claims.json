@@ -1631,6 +1631,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos682.erdos_682.variants.dickson_counterexample",
+   "module": "OpenProofs.Results.Erdos.P682_erdos_682_variants_dickson_counterexample",
+   "theorem": "OpenProofs.Erdos682.erdos_682.variants.dickson_counterexample",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«682»",
+   "ref_theorem": "Erdos682.erdos_682.variants.dickson_counterexample",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
