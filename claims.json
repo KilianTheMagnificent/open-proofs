@@ -1355,6 +1355,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos707.erdos_707.variants.singer_construction",
+   "module": "OpenProofs.Results.Erdos.P707_erdos_707_variants_singer_construction",
+   "theorem": "OpenProofs.Erdos707.erdos_707.variants.singer_construction",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«707»",
+   "ref_theorem": "Erdos707.erdos_707.variants.singer_construction",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
