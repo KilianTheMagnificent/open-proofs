@@ -1331,6 +1331,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos999.erdos_999.variants.easy_direction",
+   "module": "OpenProofs.Results.Erdos.P999_erdos_999_variants_easy_direction",
+   "theorem": "OpenProofs.Erdos999.erdos_999.variants.easy_direction",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«999»",
+   "ref_theorem": "Erdos999.erdos_999.variants.easy_direction",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
