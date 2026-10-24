@@ -1691,6 +1691,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga",
+   "module": "OpenProofs.Results.Wikipedia.AgohGiuga_agoh_giuga_variants__1700_le_digits_length_of_isStrongGiuga",
+   "theorem": "OpenProofs.AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.AgohGiuga",
+   "ref_theorem": "AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
