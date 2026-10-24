@@ -491,6 +491,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos91.erdos_91.test.dissimilar_circleSeven_wheelSeven",
+   "module": "OpenProofs.Results.Erdos.P91_erdos_91_test_dissimilar_circleSeven_wheelSeven",
+   "theorem": "OpenProofs.Erdos91.erdos_91.test.dissimilar_circleSeven_wheelSeven",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«91»",
+   "ref_theorem": "Erdos91.erdos_91.test.dissimilar_circleSeven_wheelSeven",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
