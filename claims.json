@@ -599,6 +599,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OpenQuantumProblem23.qubitSICFamily_pairwise",
+   "module": "OpenProofs.Results.OpenQuantumProblems.P23_qubitSICFamily_pairwise",
+   "theorem": "OpenProofs.OpenQuantumProblem23.qubitSICFamily_pairwise",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OpenQuantumProblems.«23»",
+   "ref_theorem": "OpenQuantumProblem23.qubitSICFamily_pairwise",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
