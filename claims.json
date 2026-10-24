@@ -695,6 +695,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "WrittenOnTheWallII.Test.petersen_cvetkovic",
+   "module": "OpenProofs.Results.WrittenOnTheWallII.Test_petersen_cvetkovic",
+   "theorem": "OpenProofs.WrittenOnTheWallII.Test.petersen_cvetkovic",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.WrittenOnTheWallII.Test",
+   "ref_theorem": "WrittenOnTheWallII.Test.petersen_cvetkovic",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
