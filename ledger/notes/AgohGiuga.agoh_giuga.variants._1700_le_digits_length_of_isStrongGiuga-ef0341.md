@@ -1,0 +1,5 @@
+# Attempt log: `AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga`
+
+Append-only. Record what was tried, dead ends, and the next idea, so later sessions do not repeat them.
+
+- 2026-10-24T08:18:07Z [swarm-w0] swarm-w0 2026-10-24: sibling _1000_ target PASSED with OpenProofs/Results/Wikipedia/AgohGiuga_agoh_giuga_variants__1000_le_digits_length_of_isStrongGiuga.lean (reuse its lemmas: giuga_prime_facts, giuga_not_dvd_sub_one, giuga_squarefree, giuga_sum_gt, giugaBB + giugaBB_sound). Method: primes <= x with pairwise no p | q-1 have sum 1/p <= T (kernel branch and bound, weights ceil(10^6/p)); primes > x then need L > (x+1)(1-T) of them, n >= (x+1)^L. x=2000,T=0.845 gives 10^1026 (kernel check ~5 s). For >1700 digits, Python float B&B suggests x=4000, T~0.872 (L>=512, 4001^512 > 10^1844; ~34k nodes vs ~1.1k for x=2000) or x=3500. Keep giugaBB as noncomputable Nat.rec def (equation-compiler version produced a partial _unsafe_rec and failed candidate_decls). 13000 digits likely out of reach with this simple bound.

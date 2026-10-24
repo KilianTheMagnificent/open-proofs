@@ -1679,6 +1679,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "AgohGiuga.agoh_giuga.variants.equivalence",
+   "module": "OpenProofs.Results.Wikipedia.AgohGiuga_agoh_giuga_variants_equivalence",
+   "theorem": "OpenProofs.AgohGiuga.agoh_giuga.variants.equivalence",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.AgohGiuga",
+   "ref_theorem": "AgohGiuga.agoh_giuga.variants.equivalence",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
