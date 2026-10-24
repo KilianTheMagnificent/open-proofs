@@ -1607,6 +1607,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "WolstenholmePrime.wolstenholme_theorem",
+   "module": "OpenProofs.Results.Wikipedia.WolstenholmePrime_wolstenholme_theorem",
+   "theorem": "OpenProofs.WolstenholmePrime.wolstenholme_theorem",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.WolstenholmePrime",
+   "ref_theorem": "WolstenholmePrime.wolstenholme_theorem",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
