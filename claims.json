@@ -959,6 +959,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos311.delta_ge_inv_lcm",
+   "module": "OpenProofs.Results.Erdos.P311_delta_ge_inv_lcm",
+   "theorem": "OpenProofs.Erdos311.delta_ge_inv_lcm",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«311»",
+   "ref_theorem": "Erdos311.delta_ge_inv_lcm",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
