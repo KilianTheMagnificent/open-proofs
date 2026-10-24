@@ -935,6 +935,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "ComplexityTheory.coP_eq_P",
+   "module": "OpenProofs.Results.Millennium.PvsNP_coP_eq_P",
+   "theorem": "OpenProofs.ComplexityTheory.coP_eq_P",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Millennium.PvsNP",
+   "ref_theorem": "ComplexityTheory.coP_eq_P",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos1055.exists_p",
+   "module": "OpenProofs.Results.Erdos.P1055_exists_p",
+   "theorem": "OpenProofs.Erdos1055.exists_p",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1055»",
+   "ref_theorem": "Erdos1055.exists_p",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
