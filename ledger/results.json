@@ -10789,6 +10789,159 @@
     "statement": "(n : ℕ) : ∃ m, countExceeding n m > countNotExceeding n m"
    }
   },
+  "OeisA87719.a_formula": {
+   "check": {
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "checked_at": "2026-10-24T07:56:19Z",
+    "id": "OeisA87719.a_formula",
+    "layers": [
+     {
+      "detail": "pinned upstream, clean packages, safe lakefile",
+      "layer": "integrity",
+      "ok": true,
+      "packages": {
+       "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f",
+       "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+       "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+       "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+       "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+       "formal_conjectures": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+       "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+       "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+       "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+       "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+      },
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb"
+     },
+     {
+      "detail": "2 file(s) clean",
+      "layer": "lint",
+      "ok": true
+     },
+     {
+      "detail": "ℹ [8973/8975] Replayed opcheck:exe\nld64.lld: warning: directory not found for option -L/usr/local/lib\nBuild completed successfully (8975 jobs).",
+      "exit_code": 0,
+      "layer": "build",
+      "ok": true,
+      "sorry_warning": false
+     },
+     {
+      "axioms": [
+       "propext",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "candidate_modules": [
+       "OpenProofs.Results.OEIS.P87719_a_exists",
+       "OpenProofs.Results.OEIS.P87719_a_formula"
+      ],
+      "checks": [
+       {
+        "detail": "all modules are core, package or candidate",
+        "name": "module_origins",
+        "ok": true
+       },
+       {
+        "detail": "ref module origin package:formal_conjectures; declared in ref module: true; is theorem: true",
+        "name": "ref_trusted",
+        "ok": true
+       },
+       {
+        "detail": "declared in module: true; is theorem: true; module is candidate code: true; unsafe: false",
+        "name": "theorem_found",
+        "ok": true
+       },
+       {
+        "detail": "types differ syntactically but the kernel accepts the claimed proof at the reference type (definitional equality)",
+        "name": "statement_match",
+        "ok": true
+       },
+       {
+        "detail": "18 constants, all from trusted modules",
+        "name": "statement_consts",
+        "ok": true
+       },
+       {
+        "detail": "[propext, Classical.choice, Quot.sound]",
+        "name": "axioms",
+        "ok": true
+       },
+       {
+        "detail": "candidate modules: [OpenProofs.Results.OEIS.P87719_a_exists, OpenProofs.Results.OEIS.P87719_a_formula]",
+        "name": "closure_clean",
+        "ok": true
+       },
+       {
+        "detail": "no forbidden declarations",
+        "name": "candidate_decls",
+        "ok": true
+       },
+       {
+        "detail": "replayed 2 candidate module(s)",
+        "name": "kernel_replay",
+        "ok": true
+       }
+      ],
+      "detail": "all Lean-level checks passed",
+      "layer": "opcheck",
+      "lean_version": "4.33.1",
+      "ok": true,
+      "ref_axioms": [
+       "propext",
+       "sorryAx",
+       "Classical.choice",
+       "Quot.sound"
+      ],
+      "statement_identity": "kernel-defeq"
+     },
+     {
+      "detail": "replayed 2 module(s)",
+      "layer": "leanchecker",
+      "ok": true
+     }
+    ],
+    "ref_axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ],
+    "repo": {
+     "commit": "3c5a4c8238910333b21d750fbba89aa38db2064d",
+     "dirty": true
+    },
+    "statement_identity": "kernel-defeq",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "trusted_base_sha256": "10a78286602faf3d8cd1c290b0b246542054fa4f7b66ed289db405819e0c3513",
+    "upstream_commit": "96343eeb5990ff13735e728cd0195eff0156a3bb",
+    "verdict": "PASS"
+   },
+   "claim": {
+    "assessment": "proved",
+    "id": "OeisA87719.a_formula",
+    "module": "OpenProofs.Results.OEIS.P87719_a_formula",
+    "notes": "",
+    "ref_kind": "upstream",
+    "ref_module": "FormalConjectures.OEIS.«87719»",
+    "ref_theorem": "OeisA87719.a_formula",
+    "summary": "",
+    "theorem": "OpenProofs.OeisA87719.a_formula",
+    "tier": "a"
+   },
+   "reference_source": {
+    "category": "textbook",
+    "file": "FormalConjectures/OEIS/87719.lean",
+    "formal_proof": true,
+    "line": 84,
+    "sorry": true,
+    "statement": "{n : ℕ} (hn : n ≥ 1) : a n = 3 ^ n + 3 * 2 ^ n + 6"
+   }
+  },
   "OpenQuantumProblem23.hasSICPOVM_three": {
    "check": {
     "axioms": [
