@@ -1475,6 +1475,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos12.isGood_example",
+   "module": "OpenProofs.Results.Erdos.P12_isGood_example",
+   "theorem": "OpenProofs.Erdos12.isGood_example",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«12»",
+   "ref_theorem": "Erdos12.isGood_example",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
