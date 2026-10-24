@@ -1211,6 +1211,42 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "SquarePacking.seventeen_square_packing_in_square_bound",
+   "module": "OpenProofs.Results.Wikipedia.SquarePacking_seventeen_square_packing_in_square_bound",
+   "theorem": "OpenProofs.SquarePacking.seventeen_square_packing_in_square_bound",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.SquarePacking",
+   "ref_theorem": "SquarePacking.seventeen_square_packing_in_square_bound",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "BusyBeaver.sanity_check",
+   "module": "OpenProofs.Results.Wikipedia.BusyBeaver_sanity_check",
+   "theorem": "OpenProofs.BusyBeaver.sanity_check",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.BusyBeaver",
+   "ref_theorem": "BusyBeaver.sanity_check",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos1069.erdos_1069.variants.lattice",
+   "module": "OpenProofs.Results.Erdos.P1069_erdos_1069_variants_lattice",
+   "theorem": "OpenProofs.Erdos1069.erdos_1069.variants.lattice",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1069»",
+   "ref_theorem": "Erdos1069.erdos_1069.variants.lattice",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
