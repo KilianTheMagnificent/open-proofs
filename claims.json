@@ -839,6 +839,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos675.minTranslation_squarefree_three",
+   "module": "OpenProofs.Results.Erdos.P675_minTranslation_squarefree_three",
+   "theorem": "OpenProofs.Erdos675.minTranslation_squarefree_three",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«675»",
+   "ref_theorem": "Erdos675.minTranslation_squarefree_three",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos18.practicalH_fiftysix",
+   "module": "OpenProofs.Results.Erdos.P18_practicalH_fiftysix",
+   "theorem": "OpenProofs.Erdos18.practicalH_fiftysix",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«18»",
+   "ref_theorem": "Erdos18.practicalH_fiftysix",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
