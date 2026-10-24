@@ -166,6 +166,11 @@ procedure step 7). That is a valuable finding, not a "solved".
 - `lake exe cache get` fetched Mathlib. Upstream problem modules build on demand (`./op begin`
   and `./op scaffold` do it under the build lock; ~20-60 s each).
 - Python: system `python3` (3.9), standard library only. `lean-lsp-mcp` is a `uv tool`.
+- Claude Code folder trust: until `open-proofs/` itself is trusted, Claude Code ignores the
+  project's `permissions.allow` list (deny rules still apply). Headless runs so far worked
+  through the owner's `auto` permission mode. Accept the trust dialog once in an interactive
+  session here (or set `projects["<this path>"].hasTrustDialogAccepted: true` in
+  `~/.claude.json`); after that the allowlist is active and no permission prompt is expected.
 - Codex: run `codex exec -C <repo> -s workspace-write "startup"`. Its sandbox may refuse writes
   to `.git`; then `./op commit` fails harmlessly and the next Claude Code session commits.
 

@@ -56,7 +56,12 @@ project = `AGENTS.md` + this file.
     (`op commit` now fails softly; `op done` reports it honestly), a later commit succeeded.
   - `claude -p "startup provers=1 budget=1" --max-turns 40` after the fixes: 263 s, 0 denials,
     0 questions, proved `Erdos1074.erdos_1074.variants.EHSNumbers_init` (PASS).
-- Ledger: 39 claims, 39 PASS under the current trusted base.
+  - `./op swarm --provers 1 --budget 1 --cli claude` (live): 140 s, worker proved
+    `Erdos1074.erdos_1074.variants.PillaiPrimes_init` (PASS) and committed.
+  - All Claude Code runs printed "Ignoring 51 permissions.allow entries … workspace has not been
+    trusted": `open-proofs/` itself is not yet trusted, so the runs went through the owner's
+    `auto` permission mode, not the project allowlist (deny rules still applied).
+- Ledger: 40 claims, 40 PASS under the current trusted base.
 
 ## Remaining
 
@@ -66,7 +71,9 @@ project = `AGENTS.md` + this file.
 - Erdős 506 (conditional), 409.parts.iii, 975.variants.quadratic: suspected issues without Lean
   proof. Re-verifying external `formal_proof` links; sweeps beyond `ErdosProblems`;
   `leanchecker --fresh` deep replay: all still unrun.
-- `op swarm` was exercised only as a dry run (live runs = the startup skill and the codex run).
+- Owner, one time: accept Claude Code's folder-trust dialog in `open-proofs/` (or set
+  `hasTrustDialogAccepted` for it in `~/.claude.json`) so the project allowlist takes effect;
+  until then interactive sessions outside `auto` mode may prompt.
 - Owner decisions: publish the repo (needed for any `formal_proof` URL), send any outbox draft,
   merge `task/turnkey` into `main`. Tooling changes need an owner-approved maintenance session
   (loop sessions are denied tooling edits).
