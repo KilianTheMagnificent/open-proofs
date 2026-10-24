@@ -707,6 +707,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos359.erdos_359.variants.isGoodFor_1_low_values",
+   "module": "OpenProofs.Results.Erdos.P359_erdos_359_variants_isGoodFor_1_low_values",
+   "theorem": "OpenProofs.Erdos359.erdos_359.variants.isGoodFor_1_low_values",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«359»",
+   "ref_theorem": "Erdos359.erdos_359.variants.isGoodFor_1_low_values",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
