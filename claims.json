@@ -863,6 +863,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos1052.isUnitaryPerfect_146361946186458562560000",
+   "module": "OpenProofs.Results.Erdos.P1052_isUnitaryPerfect_146361946186458562560000",
+   "theorem": "OpenProofs.Erdos1052.isUnitaryPerfect_146361946186458562560000",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1052»",
+   "ref_theorem": "Erdos1052.isUnitaryPerfect_146361946186458562560000",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
