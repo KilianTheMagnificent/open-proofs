@@ -1295,6 +1295,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos673.erdos_673.variants.tao",
+   "module": "OpenProofs.Results.Erdos.P673_erdos_673_variants_tao",
+   "theorem": "OpenProofs.Erdos673.erdos_673.variants.tao",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«673»",
+   "ref_theorem": "Erdos673.erdos_673.variants.tao",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos704.erdos_704.variants.cube_colouring",
+   "module": "OpenProofs.Results.Erdos.P704_erdos_704_variants_cube_colouring",
+   "theorem": "OpenProofs.Erdos704.erdos_704.variants.cube_colouring",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«704»",
+   "ref_theorem": "Erdos704.erdos_704.variants.cube_colouring",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
