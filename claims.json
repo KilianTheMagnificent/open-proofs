@@ -539,6 +539,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos91.erdos_91.test.unitSquare_optimal",
+   "module": "OpenProofs.Results.Erdos.P91_erdos_91_test_unitSquare_optimal",
+   "theorem": "OpenProofs.Erdos91.erdos_91.test.unitSquare_optimal",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«91»",
+   "ref_theorem": "Erdos91.erdos_91.test.unitSquare_optimal",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos91.erdos_91.test.wheelSeven_optimal",
+   "module": "OpenProofs.Results.Erdos.P91_erdos_91_test_wheelSeven_optimal",
+   "theorem": "OpenProofs.Erdos91.erdos_91.test.wheelSeven_optimal",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«91»",
+   "ref_theorem": "Erdos91.erdos_91.test.wheelSeven_optimal",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
