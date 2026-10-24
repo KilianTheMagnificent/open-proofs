@@ -1163,6 +1163,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "SquarePacking.three_square_packing_in_circle_bound",
+   "module": "OpenProofs.Results.Wikipedia.SquarePacking_three_square_packing_in_circle_bound",
+   "theorem": "OpenProofs.SquarePacking.three_square_packing_in_circle_bound",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.SquarePacking",
+   "ref_theorem": "SquarePacking.three_square_packing_in_circle_bound",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
