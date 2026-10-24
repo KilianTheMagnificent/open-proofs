@@ -1427,6 +1427,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "WolstenholmePrime.wolstenholme_harmonic",
+   "module": "OpenProofs.Results.Wikipedia.WolstenholmePrime_wolstenholme_harmonic",
+   "theorem": "OpenProofs.WolstenholmePrime.wolstenholme_harmonic",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.WolstenholmePrime",
+   "ref_theorem": "WolstenholmePrime.wolstenholme_harmonic",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
