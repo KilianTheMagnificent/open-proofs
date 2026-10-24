@@ -1259,6 +1259,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos44.greedy_sidon_construction",
+   "module": "OpenProofs.Results.Erdos.P44_greedy_sidon_construction",
+   "theorem": "OpenProofs.Erdos44.greedy_sidon_construction",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«44»",
+   "ref_theorem": "Erdos44.greedy_sidon_construction",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
