@@ -611,6 +611,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Kaplansky.promislow_group_is_torsionfree",
+   "module": "OpenProofs.Results.Wikipedia.Kaplansky_promislow_group_is_torsionfree",
+   "theorem": "OpenProofs.Kaplansky.promislow_group_is_torsionfree",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.Kaplansky",
+   "ref_theorem": "Kaplansky.promislow_group_is_torsionfree",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
