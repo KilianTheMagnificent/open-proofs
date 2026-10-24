@@ -1031,6 +1031,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos770.erdos_770.variants.odd_h_unbounded",
+   "module": "OpenProofs.Results.Erdos.P770_erdos_770_variants_odd_h_unbounded",
+   "theorem": "OpenProofs.Erdos770.erdos_770.variants.odd_h_unbounded",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«770»",
+   "ref_theorem": "Erdos770.erdos_770.variants.odd_h_unbounded",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
