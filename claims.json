@@ -1127,6 +1127,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Mathoverflow339137.mathoverflow_339137_probabilistic",
+   "module": "OpenProofs.Results.Mathoverflow.P339137_mathoverflow_339137_probabilistic",
+   "theorem": "OpenProofs.Mathoverflow339137.mathoverflow_339137_probabilistic",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Mathoverflow.«339137»",
+   "ref_theorem": "Mathoverflow339137.mathoverflow_339137_probabilistic",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
