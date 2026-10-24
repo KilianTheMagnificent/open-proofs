@@ -1499,6 +1499,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos508.HadwigerNelsonAtMostSeven",
+   "module": "OpenProofs.Results.Erdos.P508_HadwigerNelsonAtMostSeven",
+   "theorem": "OpenProofs.Erdos508.HadwigerNelsonAtMostSeven",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«508»",
+   "ref_theorem": "Erdos508.HadwigerNelsonAtMostSeven",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
