@@ -419,6 +419,18 @@
    "assessment": "possible-misformalization",
    "summary": "Upstream `Erdos692.erdos_692.parts.ii` (research open, question value) is false for every value of its placeholder answer.",
    "notes": "Answer-free negation of the upstream body (placeholder answer replaced by a universally quantified variable): constant maximizer m₀ for every n; at n = m₀ the value 0 is beaten by m₀ + 2. Draft: outbox/misformalization-Erdos692-*.md. Found by the first-iteration audit subagent; reviewed by the coordinator."
+  },
+  {
+   "id": "Arxiv.«2604.08040».cyc_alternatingGroup_five",
+   "module": "OpenProofs.Results.Arxiv.P2604_08040_Conjecture5_5_cyc_alternatingGroup_five",
+   "theorem": "OpenProofs.Arxiv.«2604.08040».cyc_alternatingGroup_five",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Arxiv.«2604.08040».Conjecture5_5",
+   "ref_theorem": "Arxiv.«2604.08040».cyc_alternatingGroup_five",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
