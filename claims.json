@@ -647,6 +647,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OeisA358684.a_7",
+   "module": "OpenProofs.Results.OEIS.P358684_a_7",
+   "theorem": "OpenProofs.OeisA358684.a_7",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OEIS.«358684»",
+   "ref_theorem": "OeisA358684.a_7",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
