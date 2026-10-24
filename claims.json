@@ -815,6 +815,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "SimpleGraph.lemma3",
+   "module": "OpenProofs.Results.Paper.DegreeSequencesTriangleFree_lemma3",
+   "theorem": "OpenProofs.SimpleGraph.lemma3",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Paper.DegreeSequencesTriangleFree",
+   "ref_theorem": "SimpleGraph.lemma3",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos633.IsCuttable.sq",
+   "module": "OpenProofs.Results.Erdos.P633_IsCuttable_sq",
+   "theorem": "OpenProofs.Erdos633.IsCuttable.sq",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«633»",
+   "ref_theorem": "Erdos633.IsCuttable.sq",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
