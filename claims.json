@@ -1595,6 +1595,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos588.erdos_588.variants.trivial_upper",
+   "module": "OpenProofs.Results.Erdos.P588_erdos_588_variants_trivial_upper",
+   "theorem": "OpenProofs.Erdos588.erdos_588.variants.trivial_upper",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«588»",
+   "ref_theorem": "Erdos588.erdos_588.variants.trivial_upper",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
