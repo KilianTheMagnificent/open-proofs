@@ -1067,6 +1067,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Jacobson.jacobson_conjecture_of_comm_ring",
+   "module": "OpenProofs.Results.Wikipedia.Jacobson_jacobson_conjecture_of_comm_ring",
+   "theorem": "OpenProofs.Jacobson.jacobson_conjecture_of_comm_ring",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.Jacobson",
+   "ref_theorem": "Jacobson.jacobson_conjecture_of_comm_ring",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Mahler32.mahler_conjecture.variants.consequence",
+   "module": "OpenProofs.Results.Wikipedia.Mahler32_mahler_conjecture_variants_consequence",
+   "theorem": "OpenProofs.Mahler32.mahler_conjecture.variants.consequence",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.Mahler32",
+   "ref_theorem": "Mahler32.mahler_conjecture.variants.consequence",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
