@@ -755,6 +755,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "StrongSensitivityConjecture.nisanExample_blockSensitivity",
+   "module": "OpenProofs.Results.Paper.StrongSensitivityConjecture_nisanExample_blockSensitivity",
+   "theorem": "OpenProofs.StrongSensitivityConjecture.nisanExample_blockSensitivity",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Paper.StrongSensitivityConjecture",
+   "ref_theorem": "StrongSensitivityConjecture.nisanExample_blockSensitivity",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "StrongSensitivityConjecture.nisanExample_sensitivity",
+   "module": "OpenProofs.Results.Paper.StrongSensitivityConjecture_nisanExample_sensitivity",
+   "theorem": "OpenProofs.StrongSensitivityConjecture.nisanExample_sensitivity",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Paper.StrongSensitivityConjecture",
+   "ref_theorem": "StrongSensitivityConjecture.nisanExample_sensitivity",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
