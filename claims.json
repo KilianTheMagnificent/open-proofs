@@ -1319,6 +1319,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos649.erdos_649.variants.rmm_2020",
+   "module": "OpenProofs.Results.Erdos.P649_erdos_649_variants_rmm_2020",
+   "theorem": "OpenProofs.Erdos649.erdos_649.variants.rmm_2020",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«649»",
+   "ref_theorem": "Erdos649.erdos_649.variants.rmm_2020",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
