@@ -1271,6 +1271,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos295.exists_k",
+   "module": "OpenProofs.Results.Erdos.P295_exists_k",
+   "theorem": "OpenProofs.Erdos295.exists_k",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«295»",
+   "ref_theorem": "Erdos295.exists_k",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
