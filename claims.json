@@ -719,6 +719,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos23.blowupC5_tight",
+   "module": "OpenProofs.Results.Erdos.P23_blowupC5_tight",
+   "theorem": "OpenProofs.Erdos23.blowupC5_tight",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«23»",
+   "ref_theorem": "Erdos23.blowupC5_tight",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos23.erdos_23.variants.n1",
+   "module": "OpenProofs.Results.Erdos.P23_erdos_23_variants_n1",
+   "theorem": "OpenProofs.Erdos23.erdos_23.variants.n1",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«23»",
+   "ref_theorem": "Erdos23.erdos_23.variants.n1",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
