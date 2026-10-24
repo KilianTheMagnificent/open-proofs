@@ -1619,6 +1619,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos640.erdos_640.variants.three",
+   "module": "OpenProofs.Results.Erdos.P640_erdos_640_variants_three",
+   "theorem": "OpenProofs.Erdos640.erdos_640.variants.three",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«640»",
+   "ref_theorem": "Erdos640.erdos_640.variants.three",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
