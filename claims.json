@@ -1343,6 +1343,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "PollocksConjecture.pollock_tetrahedral.ncard_exceptions",
+   "module": "OpenProofs.Results.Wikipedia.PollocksConjecture_pollock_tetrahedral_ncard_exceptions",
+   "theorem": "OpenProofs.PollocksConjecture.pollock_tetrahedral.ncard_exceptions",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.PollocksConjecture",
+   "ref_theorem": "PollocksConjecture.pollock_tetrahedral.ncard_exceptions",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
