@@ -991,13 +991,20 @@ def cmd_commit(args) -> int:
                 files.append(str(lint.module_path(ROOT, c["ref_module"]).relative_to(ROOT)))
     paths = ["ledger", "claims.json", "outbox", "docs"] + sorted(set(files))
     with flock("git", timeout=120):
-        subprocess.run(["git", "add", "--", *[p for p in paths if (ROOT / p).exists()]], cwd=ROOT, check=True)
+        a = subprocess.run(["git", "add", "--", *[p for p in paths if (ROOT / p).exists()]], cwd=ROOT,
+                           capture_output=True, text=True)
+        if a.returncode != 0:
+            print(f"op: commit skipped, `git add` failed (sandboxed .git?): {a.stderr.strip()[:300]}. "
+                  "The results are recorded in ledger/; a later session's ./op commit will commit them.")
+            return 1
         st = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
         if st.returncode == 0:
             print("nothing to commit")
             return 0
         msg = args.message + ("\n\n" + args.trailer if args.trailer else "")
-        p = subprocess.run(["git", "commit", "-q", "-m", msg], cwd=ROOT)
+        p = subprocess.run(["git", "commit", "-q", "-m", msg], cwd=ROOT, capture_output=True, text=True)
+    if p.returncode != 0:
+        print(f"op: commit failed: {(p.stderr or p.stdout).strip()[:300]}. A later ./op commit will retry.")
     if p.returncode == 0:
         print(subprocess.run(["git", "log", "--oneline", "-1"], cwd=ROOT, capture_output=True, text=True).stdout.strip())
     return p.returncode
