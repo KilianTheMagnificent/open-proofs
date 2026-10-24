@@ -1121,9 +1121,11 @@ def cmd_done(args) -> int:
     fin = argparse.Namespace(target=args.target, outcome=outcome,
                              notes=args.notes or "proved; checker PASS", claim=cid, retry=False)
     cmd_finish(fin)
+    committed = False
     if not args.no_commit:
-        cmd_commit(argparse.Namespace(message=f"Prove {t['id']} (checker PASS)", trailer=None))
-    print(f"== DONE: {t['id']} PASS, recorded" + ("" if args.no_commit else " and committed"))
+        committed = cmd_commit(argparse.Namespace(message=f"Prove {t['id']} (checker PASS)", trailer=None)) == 0
+    print(f"== DONE: {t['id']} PASS, recorded" + (" and committed" if committed else
+                                                   " (not committed: run ./op commit later)" if not args.no_commit else ""))
     return 0
 
 
