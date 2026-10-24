@@ -1571,6 +1571,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OeisA3162.a_is_integer",
+   "module": "OpenProofs.Results.OEIS.P3162_a_is_integer",
+   "theorem": "OpenProofs.OeisA3162.a_is_integer",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OEIS.«3162»",
+   "ref_theorem": "OeisA3162.a_is_integer",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos261.erdos_261.variants.borwein_loring",
+   "module": "OpenProofs.Results.Erdos.P261_erdos_261_variants_borwein_loring",
+   "theorem": "OpenProofs.Erdos261.erdos_261.variants.borwein_loring",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«261»",
+   "ref_theorem": "Erdos261.erdos_261.variants.borwein_loring",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
