@@ -1043,6 +1043,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos945.erdos_945.variants.equivalence",
+   "module": "OpenProofs.Results.Erdos.P945_erdos_945_variants_equivalence",
+   "theorem": "OpenProofs.Erdos945.erdos_945.variants.equivalence",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«945»",
+   "ref_theorem": "Erdos945.erdos_945.variants.equivalence",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
