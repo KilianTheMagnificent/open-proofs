@@ -136,3 +136,8 @@ other CLI: sequential loop). For an unattended run: `./op swarm --provers 3`.
   `Nat.count`/`Nat.nth_count`. No misformalization signs.
 - Ledger: 39/39 PASS, 4114 pending. No give-ups, nothing blocking; no tooling edits.
 - Next queued: `Erdos1074.erdos_1074.variants.PillaiPrimes_init`. No merge, push or submission.
+
+### Swarm run 2026-10-24 00:12–03:25 (`./op swarm --provers 3`, Claude Code default model, branch `task/run-2026-10-24`)
+- 114 targets attempted: 102 proved, 12 blocked (Poincaré variants ×5, RegularPrimes ×3, MovingSofa, Erdős 69, Erdős 707 small_sidon_sets, AgohGiuga 13000 digits). All tier a; upstream categories of the proved ones: textbook 61, test 28, API 10, research solved 3. No tier b/c target reached; no new misformalization drafts.
+- Verified after the run: `scripts/check.py --all` 142/142 PASS (axioms exactly propext/Classical.choice/Quot.sound; identity 140 syntactic, 2 kernel-defeq); `tests/run_adversarial.py` 48/48.
+- Next safe action: to reach open problems, give one prover tier b/c targets (the queue is ordered easiest-first, 3,999 pending), or run `./op refill` with tier c prioritised. Branch not merged.
