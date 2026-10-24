@@ -803,6 +803,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos18.practicalH_7200",
+   "module": "OpenProofs.Results.Erdos.P18_practicalH_7200",
+   "theorem": "OpenProofs.Erdos18.practicalH_7200",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«18»",
+   "ref_theorem": "Erdos18.practicalH_7200",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
