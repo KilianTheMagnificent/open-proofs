@@ -1247,6 +1247,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos1171.erdos_1171.variants.mono_k",
+   "module": "OpenProofs.Results.Erdos.P1171_mono_k",
+   "theorem": "OpenProofs.Erdos1171.erdos_1171.variants.mono_k",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«1171»",
+   "ref_theorem": "Erdos1171.erdos_1171.variants.mono_k",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
