@@ -1187,6 +1187,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "SquarePacking.twenty_one_circle_packing_in_square_bound",
+   "module": "OpenProofs.Results.Wikipedia.SquarePacking_twenty_one_circle_packing_in_square_bound",
+   "theorem": "OpenProofs.SquarePacking.twenty_one_circle_packing_in_square_bound",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.SquarePacking",
+   "ref_theorem": "SquarePacking.twenty_one_circle_packing_in_square_bound",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
