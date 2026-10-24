@@ -1403,6 +1403,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos670.erdos_670.variants.choose_two",
+   "module": "OpenProofs.Results.Erdos.P670_erdos_670_variants_choose_two",
+   "theorem": "OpenProofs.Erdos670.erdos_670.variants.choose_two",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«670»",
+   "ref_theorem": "Erdos670.erdos_670.variants.choose_two",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
