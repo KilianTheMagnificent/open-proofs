@@ -1,73 +1,91 @@
 # TODO
 
-Updated 2026-10-23 (end of the first iteration). Branch `task/first-iteration` (not merged into
-`main`, not pushed). Agent memory for this project = `AGENTS.md` + this file.
+Updated 2026-10-24 (end of iteration 2, "turnkey"). Branch `task/turnkey` (from
+`task/first-iteration`; nothing merged into `main`, nothing pushed). Agent memory for this
+project = `AGENTS.md` + this file.
 
 ## Done
 
-- **Setup.** elan 4.2.4 (`--no-modify-path`); Lean v4.33.1 installed by hand from the GitHub
-  release asset (sha256 checked) because `release.lean-lang.org` is blocked here by a Cisco
-  Umbrella filter. Lake project depends on formal-conjectures `96343eeb` (pinned in
-  `lakefile.toml` + `upstream.json`; Mathlib `0df444a3` comes with it). `lake exe cache get`
-  done; all 957 upstream `ErdosProblems` modules plus `Wikipedia.{RamseyNumbers,CongruentNumber,
-  RamanujanTau}` and `WrittenOnTheWallII.Test` built locally.
-- **Checker** (`scripts/check.py` + `OpenProofsChecker/Main.lean` + `scripts/lint.py`): five
-  layers (integrity, lint, clean build, opcheck, leanchecker); see AGENTS.md "Checker rules".
-- **Adversarial suite** `tests/run_adversarial.py`: 45/45 expectations hold (10 lint, 9 integrity,
-  26 Lean cases incl. sorry, sorry via upstream, native_decide, custom axiom, axiom-as-claim,
-  weakened statement, shadowed upstream definition, instance override, implemented_by, extern,
-  opaque, unsafe/partial, `debug.skipKernelTC` environment hack (caught only by kernel replay and
-  leanchecker), macro-hidden sorry, importing a statement file, outside-namespace and
-  upstream-namespace helpers, fake equation lemma, wrong reference kinds, statement using a
-  candidate definition, broken proof, 3 positive controls).
-- **Triage tools:** `scripts/triage.py` (4343 placeholder theorems → `work/candidates.json`),
-  `scripts/crosscheck_status.py` (46 upstream-vs-erdosproblems.com disagreements →
-  `ledger/status-crosscheck.md`), `scripts/quickkill.py` (all 2619 Erdős placeholder statements
-  and their negations vs `omega|decide|norm_num|simp|trivial|aesop`: 1 hit, `1193.sumRep_univ`,
-  legitimately easy), `scripts/placeholder_deps.py` (645 written upstream proofs scanned, 22 rest
-  on placeholders → `ledger/placeholder-deps.md`).
-- **Loop:** `LOOP.md` (prompt), `scripts/loop.py` (preflight/next/finish/status/recheck),
-  `ledger/queue.json`.
-- **Results:** 35 claims, all PASS (see `ledger/LEDGER.md`): 22 tier-a upstream placeholders
-  proved, 2 tier-b special cases (Erdős 828 at a = 0, −1), 11 possible misformalizations
-  (answer-free negations of open `question value` statements whose placeholder answer cannot
-  depend on a quantified parameter: Erdős 142 (×2), 319, 321, 361, 409 (×2), 450, 503, 552, 692).
-- **Outbox drafts** (nothing sent): `writeup-first-iteration.md`, 10 `misformalization-*.md`
-  (incl. 506, conditional, no result file), `note-RamanujanTau-tau_one-rests-on-placeholder.md`.
+### Iteration 1 (branch `task/first-iteration`)
+
+- Setup: elan 4.2.4; Lean v4.33.1 installed by hand from the GitHub release asset (sha256
+  checked; `release.lean-lang.org` is blocked by a Cisco Umbrella filter); Lake project pinned to
+  formal-conjectures `96343eeb` (Mathlib `0df444a3`); Mathlib cache; all Erdős modules built.
+- Checker: `scripts/check.py` + `OpenProofsChecker/Main.lean` + `scripts/lint.py`, five layers.
+- Triage tools, quick-kill sweep, placeholder-dependency scan, status cross-check.
+- 35 claims: 22 tier-a proofs, 2 tier-b special cases, 11 possible misformalizations; drafts in
+  `outbox/`.
+
+### Iteration 2 (turnkey; branch `task/turnkey`)
+
+- **Entry points:** `AGENTS.md` "Startup" is the universal entry for any agent CLI and model
+  (Sequential loop + Prover procedure, all through `./op`); `CLAUDE.md` = `@AGENTS.md`;
+  `.claude/skills/startup` (parallel `prover` subagents); `.claude/agents/prover.md`;
+  `LOOP.md` for scheduled headless runs.
+- **Session plumbing:** `.claude/settings.json` (env with elan PATH and Lean caps; allowlist for
+  `./op`, `lake build/env`, `lean`, project scripts, read-only shell, git add/commit/branch/
+  switch, `mcp__lean-lsp`; denies for push, `gh`, `curl`/`wget`/`ssh`, `lake update/clean`,
+  posting connectors, Artifact tools, and all tooling/trusted-base edits; `enabledMcpjsonServers`;
+  SessionStart hook `op status --brief`, measured 0.06 s).
+- **`./op` CLI** (`scripts/op.py`): status, next (lock files, stale-claim expiry), begin,
+  scaffold (exact upstream statement incl. opens/variables/`open … in`, verified by a
+  `type_of%` identity check), try (JSON messages, goal states, lint preview, crash detection,
+  caps), search (250k-declaration local index; `exact?`/`apply?`/… harness), check, done,
+  giveup (saves work to `work/attempts/`, requeues once), finish, notes (`ledger/notes/`),
+  refill, build, commit, branch, stop, config, swarm (headless workers of any configured CLI),
+  preflight, recheck. `scripts/loop.py` is now a shim.
+- **Resource caps:** `LEAN_NUM_THREADS=2` (Lake honours it: measured 2 concurrent lean
+  processes), `lean -j2 -M8192` for `try`, ≤4 concurrent `try`, one global build lock, wall-clock
+  timeouts. Peak RSS seen in a run: ~6.9 GB.
+- **Lean LSP MCP:** `lean-lsp-mcp` 0.31.0 via `uv tool` in `.mcp.json` (remote search tools
+  disabled); goal and diagnostics calls verified with v4.33.1 by `tests/mcp_smoke.py`
+  (MCP SMOKE OK); connected in the headless Claude Code runs.
+- **Configurable provers:** `op.config.json` + `OP_*` env (CLI `claude`/`codex`, model default
+  empty = CLI default; no hardcoded model ids).
+- **Queue:** `./op refill` scored every formal-conjectures directory: 4118 pending → now 4114
+  (tier a: d1 35, d2 79, d3 1369, d4 1204, d5 60; tier c: 1371), one target per line.
+- **Shared helpers:** `OpenProofs/Lib/{Graph,Padic}.lean`; adversarial cases `LibGoodUse`,
+  `LibSorryUse`, `LibSorryUnused` (suite now 48/48).
+- **End-to-end runs (all headless, real config):**
+  - `claude -p "startup provers=2 budget=2" --max-turns 60`: 636 s, 2 targets proved (PASS):
+    `Arxiv.«2604.08040».cyc_alternatingGroup_five`, `Arxiv.«1609.08688».maximalLength_four`;
+    0 questions; 1 permission denial (the orchestrator tried to patch `scripts/op.py`; that path
+    was "ask", now "deny"; the underlying `op try` crash-reporting bug is fixed).
+  - `codex exec -s workspace-write "startup budget=1"`: 193 s, proved
+    `BrennanConjecture.integralMeansSpectrum_id` (PASS); the sandbox blocked the first git commit
+    (`op commit` now fails softly; `op done` reports it honestly), a later commit succeeded.
+  - `claude -p "startup provers=1 budget=1" --max-turns 40` after the fixes: 263 s, 0 denials,
+    0 questions, proved `Erdos1074.erdos_1074.variants.EHSNumbers_init` (PASS).
+- Ledger: 39 claims, 39 PASS under the current trusted base.
 
 ## Remaining
 
-- Queue (`python3 scripts/loop.py status`): pending tier a: Erdős 767 czipszer, 1084
-  easy_upper_d2, 1052 unitary-perfect test, 675, 18, BusyBeaver.BB_1, 902 szekeres_f_three;
-  tier c: Erdős 828 at a = 1, 349 floor_3_halves_odd. Refill from `work/candidates.json`
-  (regenerate with `scripts/triage.py`) and `ledger/placeholder-deps.md` leads (e.g. prove
-  `Erdos633.IsCuttable.of_isSquare`, `Erdos1052.isUnitaryPerfect_87360` dependencies).
-- Erdős 506: the no-constant-answer refutation is proved only conditionally on upstream's
-  placeholder `erdos_506.variants.large_n` (Elliott); needs an unconditional argument or stays a
-  draft. 409.parts.iii and 975.variants.quadratic: suspected issues without Lean proof (see the
-  506/409 drafts and the audit notes in the claims).
-- Extend the quick-kill and placeholder-deps sweeps beyond `ErdosProblems` (build the other
-  upstream directories first: `lake build FormalConjectures` takes a while).
-- Re-verify external `formal_proof` links (39 "upstream solved, DB open" rows cite them) by porting
-  the linked Lean files and running this checker: high-value, needs toolchain/Mathlib porting.
-- Deep check not run: `lake env leanchecker --fresh <module>` (replays all of Mathlib; slow).
-- Owner decisions: whether to publish this repo (needed for any `formal_proof` URL), whether to
-  send any outbox draft, whether to merge `task/first-iteration` into `main`.
+- Keep running the loop (`startup`); 4114 targets pending. Tier-c targets are only time-boxed.
+- Difficulty estimates are heuristic (e.g. `Erdos633.IsCuttable.sq` was rated 1 but is a
+  geometric dissection); provers should give up early and say why in notes.
+- Erdős 506 (conditional), 409.parts.iii, 975.variants.quadratic: suspected issues without Lean
+  proof. Re-verifying external `formal_proof` links; sweeps beyond `ErdosProblems`;
+  `leanchecker --fresh` deep replay: all still unrun.
+- `op swarm` was exercised only as a dry run (live runs = the startup skill and the codex run).
+- Owner decisions: publish the repo (needed for any `formal_proof` URL), send any outbox draft,
+  merge `task/turnkey` into `main`. Tooling changes need an owner-approved maintenance session
+  (loop sessions are denied tooling edits).
 
 ## Next safe action
 
-`python3 scripts/loop.py preflight --full`, then `python3 scripts/loop.py next` and follow
-`LOOP.md`. Before the first loop run on a new day, `python3 scripts/check.py --all --record` keeps
-the ledger's trusted-base hashes current.
+Open a CLI session in `open-proofs/` and say `startup` (Claude Code: parallel provers; any
+other CLI: sequential loop). For an unattended run: `./op swarm --provers 3`.
 
-## Checks (this iteration)
+## Checks (iteration 2)
 
-- Passed: `tests/run_adversarial.py` 45/45 (after the last checker change);
-  `scripts/check.py --all --record` 35/35 PASS under the current trusted base; `scripts/check.py --integrity` OK.
-- Not run: `leanchecker --fresh` deep replay; quick-kill/placeholder sweeps on non-Erdős
-  directories; any upstream submission (out of scope by rule).
+- Passed: `tests/run_adversarial.py` 48/48; `./op recheck` 35/35 then 4 new PASS (39/39 under the
+  current trusted base); `tests/mcp_smoke.py` OK; `./op preflight` OK; SessionStart hook 0.06 s;
+  `./op try` 4.4 s (11.7 s with `--goals`) against a 300 s cap; three headless startup runs above.
+- Not run: live `op swarm`; `leanchecker --fresh`; any upstream submission (out of scope).
 
-## Loop summary 2026-10-23 (startup provers=2 budget=2, branch task/turnkey)
+## Loop log
+
+### Loop summary 2026-10-23 (startup provers=2 budget=2, branch task/turnkey)
 
 - Preflight OK. Attempted 2 targets, 2 PASS (identity syntactic; axioms propext, Classical.choice, Quot.sound):
   `Arxiv.«2604.08040».cyc_alternatingGroup_five` (32 cyclic subgroups of A5; kernel `decide`) and
@@ -82,7 +100,7 @@ the ledger's trusted-base hashes current.
 - Kernel-computation tip: write the search helpers with `List.rec`/`Nat.rec`. The pattern-matching
   versions ran out of kernel memory under `-M8192`.
 
-## Loop summary 2026-10-24 (startup budget=1, branch task/turnkey)
+### Loop summary 2026-10-24 (startup budget=1, branch task/turnkey)
 
 - Budget exhausted: attempted one target, proved `BrennanConjecture.integralMeansSpectrum_id`.
   The identity has derivative one, making the numerator constant; the absolute logarithm in
@@ -93,7 +111,7 @@ the ledger's trusted-base hashes current.
   syntactic statement identity, only `propext`, `Classical.choice`, `Quot.sound`.
   Ledger now has 38/38 PASS, 4115 pending targets, and no active claim.
   Full adversarial suite and deep replay were not rerun; no tooling or trusted-base edits.
-- Tooling follow-up: `cmd_done` ignores `cmd_commit`'s return code and prints "recorded and
+- Tooling follow-up (FIXED in 254e153): `cmd_done` ignored `cmd_commit`'s return code and prints "recorded and
   committed" even when sandboxed Git cannot create `.git/index.lock`. Observed here on
   `9aa0625`; the proof and ledger were recorded correctly. Proposed maintenance fix: retain
   the commit return code and report "recorded; commit pending" on failure. No tooling edits
