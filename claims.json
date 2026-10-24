@@ -743,6 +743,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "LeinsterGroup.cyclic_of_perfect_is_leinster",
+   "module": "OpenProofs.Results.Wikipedia.LeinsterGroup_cyclic_of_perfect_is_leinster",
+   "theorem": "OpenProofs.LeinsterGroup.cyclic_of_perfect_is_leinster",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.LeinsterGroup",
+   "ref_theorem": "LeinsterGroup.cyclic_of_perfect_is_leinster",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
