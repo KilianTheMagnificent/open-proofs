@@ -157,8 +157,9 @@ procedure step 7). That is a valuable finding, not a "solved".
 ## Setup and environment
 
 - Lean via `elan` (official `elan-init.sh`, `--no-modify-path`). `op` and the Python scripts add
-  `~/.elan/bin` to `PATH` themselves; `.claude/settings.json` and `.mcp.json` set a `PATH` that
-  includes it (machine-specific absolute paths).
+  `~/.elan/bin` to `PATH` themselves; `.mcp.json` sets a `PATH` that includes it (via `${HOME}`).
+  For Claude Code's own shell, put a machine-specific `PATH` in the gitignored
+  `.claude/settings.local.json`.
 - `release.lean-lang.org` is blocked here by a Cisco Umbrella filter, so `elan` cannot download
   toolchains. v4.33.1 was installed from the GitHub release asset
   (`lean-4.33.1-darwin_aarch64.tar.zst`, sha256 `88c45aad…065a9d`, checked) into
