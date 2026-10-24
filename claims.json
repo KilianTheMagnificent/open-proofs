@@ -1511,6 +1511,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos667.erdos_667.variants.monotoneOn",
+   "module": "OpenProofs.Results.Erdos.P667_erdos_667_variants_monotoneOn",
+   "theorem": "OpenProofs.Erdos667.erdos_667.variants.monotoneOn",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«667»",
+   "ref_theorem": "Erdos667.erdos_667.variants.monotoneOn",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
