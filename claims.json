@@ -899,6 +899,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "AlgebraicGeometry.Scheme.hasFiniteCoproductsVectorBundles",
+   "module": "OpenProofs.Results.Paper.HartshorneConjecture_hasFiniteCoproductsVectorBundles",
+   "theorem": "OpenProofs.AlgebraicGeometry.Scheme.hasFiniteCoproductsVectorBundles",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Paper.HartshorneConjecture",
+   "ref_theorem": "AlgebraicGeometry.Scheme.hasFiniteCoproductsVectorBundles",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Arxiv.«0805.3777».isGenericRank_matrix",
+   "module": "OpenProofs.Results.Arxiv.P0805_3777_TensorRank_isGenericRank_matrix",
+   "theorem": "OpenProofs.Arxiv.«0805.3777».isGenericRank_matrix",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Arxiv.«0805.3777».TensorRank",
+   "ref_theorem": "Arxiv.«0805.3777».isGenericRank_matrix",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
