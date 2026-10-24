@@ -1379,6 +1379,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Mathoverflow17560.mathoverflow_17560.variants.with_5",
+   "module": "OpenProofs.Results.Mathoverflow.P17560_mathoverflow_17560_variants_with_5",
+   "theorem": "OpenProofs.Mathoverflow17560.mathoverflow_17560.variants.with_5",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Mathoverflow.«17560»",
+   "ref_theorem": "Mathoverflow17560.mathoverflow_17560.variants.with_5",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
