@@ -1415,6 +1415,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "OeisA107247.known_prime_and_semiprimes",
+   "module": "OpenProofs.Results.OEIS.P107247_known_prime_and_semiprimes",
+   "theorem": "OpenProofs.OeisA107247.known_prime_and_semiprimes",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.OEIS.«107247»",
+   "ref_theorem": "OeisA107247.known_prime_and_semiprimes",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
