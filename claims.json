@@ -1643,6 +1643,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "BusyBeaver.BB_1",
+   "module": "OpenProofs.Results.Wikipedia.BusyBeaver_BB_1",
+   "theorem": "OpenProofs.BusyBeaver.BB_1",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.BusyBeaver",
+   "ref_theorem": "BusyBeaver.BB_1",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "Erdos287.erdos_287.variants.prime_conjecture_implies",
+   "module": "OpenProofs.Results.Erdos.P287_erdos_287_variants_prime_conjecture_implies",
+   "theorem": "OpenProofs.Erdos287.erdos_287.variants.prime_conjecture_implies",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«287»",
+   "ref_theorem": "Erdos287.erdos_287.variants.prime_conjecture_implies",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
