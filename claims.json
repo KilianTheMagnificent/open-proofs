@@ -995,6 +995,18 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "Erdos358.f_id",
+   "module": "OpenProofs.Results.Erdos.P358_f_id",
+   "theorem": "OpenProofs.Erdos358.f_id",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.ErdosProblems.«358»",
+   "ref_theorem": "Erdos358.f_id",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
