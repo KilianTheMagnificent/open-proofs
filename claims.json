@@ -1139,6 +1139,30 @@
    "assessment": "proved",
    "summary": "",
    "notes": ""
+  },
+  {
+   "id": "QuadraticAlgebra.discr_rat_of_modEq_one",
+   "module": "OpenProofs.Results.Wikipedia.WallSunSun_discr_rat_of_modEq_one",
+   "theorem": "OpenProofs.QuadraticAlgebra.discr_rat_of_modEq_one",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.WallSunSun",
+   "ref_theorem": "QuadraticAlgebra.discr_rat_of_modEq_one",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
+  },
+  {
+   "id": "QuadraticAlgebra.discr_rat_of_not_modEq_one",
+   "module": "OpenProofs.Results.Wikipedia.WallSunSun_discr_rat_of_not_modEq_one",
+   "theorem": "OpenProofs.QuadraticAlgebra.discr_rat_of_not_modEq_one",
+   "ref_kind": "upstream",
+   "ref_module": "FormalConjectures.Wikipedia.WallSunSun",
+   "ref_theorem": "QuadraticAlgebra.discr_rat_of_not_modEq_one",
+   "tier": "a",
+   "assessment": "proved",
+   "summary": "",
+   "notes": ""
   }
  ]
 }
