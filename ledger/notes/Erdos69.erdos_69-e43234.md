@@ -1,0 +1,5 @@
+# Attempt log: `Erdos69.erdos_69`
+
+Append-only. Record what was tried, dead ends, and the next idea, so later sessions do not repeat them.
+
+- 2026-10-24T06:25:43Z [swarm-w2] blocked: Not textbook despite the upstream category: research-level. Statement checked faithful (real division, Irrational of sum_{n>=2} omega(n)/2^n = sum_p 1/(2^p-1), via Mathlib tsum_cardDistinctFactors_div_two_pow); not a misformalization. Erdos DB: proved 2025-12-02, unconditionally by Tao-Teravainen (arXiv 2512.01739) via quantitative two-point correlation estimates for multiplicative functions (log-power saving); earlier only conditional on uniform prime k-tuples (Pratt, arXiv 2409.15185). Elementary routes ruled out: Erdos-1948 tau(n) trick (CRT makes partial sum integral via 2^K | d(n+k)) fails since omega is additive and needs exact control of cofactors; truncation with D_P = prod_{p<P}(2^p-1) gives b*D_P*R_P >= 1, no contradiction. Needs correlation machinery absent from Mathlib; do not retry without a formalized Matomaki-Radziwill/Tao-Teravainen-type input. [work saved to work/attempts/Erdos69.erdos_69-e43234.lean; ./op begin restores it]
