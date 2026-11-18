@@ -16,7 +16,9 @@ them. No human reads them. Trust the checker, not the authors.
   theorem, R(3,5) = 14, Erdős 902's lower bound and Kaplansky's Promislow-group example.
 - **11 misformalization certificates.** Each proves that a published value question is false
   for every value of its `answer` placeholder, because the answer ignores a parameter the
-  theorem quantifies over. See [`outbox/`](outbox/) for the write-ups.
+  theorem quantifies over. See [`outbox/`](outbox/) for the write-ups
+  ([`outbox/issue-value-answers-ignore-parameter.md`](outbox/issue-value-answers-ignore-parameter.md)
+  was filed upstream as [`google-deepmind/formal-conjectures#7590`](https://github.com/google-deepmind/formal-conjectures/issues/7590)).
 
 No open problem has been solved here. [`ledger/LEDGER.md`](ledger/LEDGER.md) lists every result
 with its checker verdict.
@@ -44,6 +46,7 @@ rejects each one.
 Requirements: [elan](https://github.com/leanprover/elan) and Python 3.
 
 ```bash
+git clone https://github.com/KilianTheMagnificent/open-proofs.git && cd open-proofs
 lake exe cache get
 lake build
 python3 scripts/check.py --all       # re-check every claim
