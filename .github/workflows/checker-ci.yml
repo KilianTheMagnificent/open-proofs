@@ -1,0 +1,129 @@
+name: Checker CI (Fast Python & Integrity)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checker-fast:
+    name: Python Lint, Adversarial Self-Tests & Ledger Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile-check Python scripts and tests
+        run: python3 -m py_compile scripts/*.py tests/*.py
+
+      - name: Run adversarial source-lint self-tests (10/10)
+        run: python3 tests/run_adversarial.py --only lint
+
+      - name: Verify pins, lakefile tamper rules, claim lint, and ledger integrity
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          import sys
+          from pathlib import Path
+
+          root = Path.cwd()
+          sys.path.insert(0, str(root / "scripts"))
+          import check  # noqa: E402
+
+          # 1. Static pin & lakefile integrity checks (no .lake/packages download required)
+          up = json.loads((root / "upstream.json").read_text(encoding="utf-8"))
+          pinned = up["formal_conjectures"]["commit"]
+          toolchain = (root / "lean-toolchain").read_text(encoding="utf-8").strip()
+          assert toolchain == up["lean_toolchain"], (
+              f"lean-toolchain {toolchain!r} != upstream.json {up['lean_toolchain']!r}"
+          )
+          assert not (root / "lakefile.lean").exists(), "lakefile.lean must not exist"
+
+          lakefile = (root / "lakefile.toml").read_text(encoding="utf-8")
+          lf_probs = check.lakefile_problems(lakefile)
+          assert not lf_probs, f"lakefile.toml problems: {lf_probs}"
+
+          m = re.search(
+              r'name\s*=\s*"formal_conjectures"[^\[]*?rev\s*=\s*"([0-9a-f]+)"',
+              lakefile,
+              re.S,
+          )
+          assert m and m.group(1) == pinned, (
+              f"lakefile.toml formal_conjectures rev != pinned {pinned}"
+          )
+
+          manifest = json.loads((root / "lake-manifest.json").read_text(encoding="utf-8"))
+          by_name = {p["name"]: p for p in manifest["packages"]}
+          assert by_name["formal_conjectures"]["rev"] == pinned, (
+              "lake-manifest.json formal_conjectures rev mismatch"
+          )
+          assert by_name["mathlib"]["rev"] == up["mathlib_rev"], (
+              "lake-manifest.json mathlib rev mismatch"
+          )
+
+          # 2. Negative lakefile tamper assertions (mirrors tests/run_adversarial.py)
+          for extra in (
+              '\nmoreLeanArgs = ["-Ddebug.skipKernelTC=true"]\n',
+              '\nplugins = ["x"]\n',
+              '\n[leanOptions]\ndebug.skipKernelTC = true\n',
+          ):
+              assert check.lakefile_problems(lakefile + extra), (
+                  f"lakefile_problems failed to reject tamper: {extra!r}"
+              )
+
+          # 3. Source-level lint across every claim closure and variant statement
+          claims = check.load_claims(root)
+          assert claims, "claims.json must not be empty"
+          lint_failures = []
+          for claim in claims:
+              res = check.lint_layer(
+                  root,
+                  claim["module"],
+                  claim.get("ref_module"),
+                  claim.get("ref_kind", "upstream"),
+              )
+              if not res["ok"]:
+                  lint_failures.append((claim["id"], res["detail"]))
+          assert not lint_failures, f"lint_layer failures: {lint_failures[:5]}"
+
+          # 4. Claims, ledger verdicts, and TRUSTED_BASE hash consistency
+          results = json.loads(
+              (root / "ledger" / "results.json").read_text(encoding="utf-8")
+          )["results"]
+          claim_ids = {c["id"] for c in claims}
+          result_ids = set(results.keys())
+          assert claim_ids == result_ids, (
+              f"claims/results mismatch: only_in_claims={sorted(claim_ids - result_ids)[:5]}, "
+              f"only_in_results={sorted(result_ids - claim_ids)[:5]}"
+          )
+
+          non_pass = [
+              cid for cid, entry in results.items()
+              if entry["check"]["verdict"] != "PASS"
+          ]
+          assert not non_pass, f"non-PASS ledger entries: {non_pass[:5]}"
+
+          tb_hash = check.trusted_base_hash(root)
+          tb_mismatch = [
+              cid for cid, entry in results.items()
+              if entry["check"].get("trusted_base_sha256") != tb_hash
+          ]
+          assert not tb_mismatch, (
+              f"trusted_base_sha256 mismatch for {len(tb_mismatch)} claim(s) "
+              f"(current={tb_hash[:16]}...)"
+          )
+
+          print(
+              f"OK: pins valid, 3/3 lakefile tamper checks pass, "
+              f"{len(claims)}/{len(claims)} claims pass lint & ledger PASS check "
+              f"(trusted_base={tb_hash[:12]})."
+          )
+          PY
